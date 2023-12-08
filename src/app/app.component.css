@@ -1,0 +1,75 @@
+/* .active{
+    background-color: blue;
+    color: antiquewhite;
+}
+.inactive{
+    background-color: green;
+    color: beige;
+} */
+
+/* .img{
+    width: 100px;
+    height: 100px;
+    margin:1px;
+    padding: auto;
+} */
+/* .listing {
+    background: var(--accent-color);
+    border-radius: 30px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
+  .listing-heading {
+    color: var(--primary-color);
+    padding: 10px 20px 0 20px;
+  }
+  .listing-photo {
+    height: 250px;
+    width: 15%;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+  }
+  .listing-location {
+    padding: 10px 20px 20px 20px;
+  }
+  .listing-location::before {
+    content: url("/assets/location-pin.svg") / "";
+  }
+  
+  section.listing a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  section.listing a::after {
+    content: "\203A";
+    margin-left: 5px;
+  }  */
+  .navbar{
+     background-color: aquamarine;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+    color: black;
+    
+  }
+  .navbar-nav{
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  .navbar-nav .nav-link{
+    padding: 10px;
+    color: brown;
+    
+  }
+  .navbar-brand{
+    font-size: larger;
+    padding-top: 10px;
+  }
+  .nav-link{
+    padding-left: 20px;
+
+  }
+ .text-center p{
+  text-align: center;
+ }

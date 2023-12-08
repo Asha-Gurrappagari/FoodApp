@@ -1,0 +1,31 @@
+.text{
+    text-align: center;
+    color: rgb(126, 99, 59);
+    font-size: xx-large;
+}
+.course{
+    background-color:#c2c7ce;
+    padding: 50px 100px;
+}
+.box{
+    background-color: rgb(249, 251, 254);
+    padding: 10px 20px;
+}
+.box img{
+    height:150px;
+}
+ul {
+    columns: 4;
+    list-style-type: none;
+  } 
+btn-primary{
+    color: aqua;
+
+    background-color: aqua;
+  }
+  @media screen and (max-width :600px) {
+    .course{
+        background-color:#c2c7ce ;
+        padding:50px 100px;
+    }
+  }
