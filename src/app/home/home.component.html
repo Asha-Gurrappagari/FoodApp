@@ -36,9 +36,17 @@
   <div class="homecontent">
     <h1>Your career for future</h1>
     <!-- <h2>Welcome to Udemy...</h2> -->
-    <a routerLink="course" class="btn-btn-lg btn-light" >Discover Course</a>
+    <p>
+      <button (click)="getCourse()">Discover Course</button>
+      <button (click)="joinNow()">Join Now</button>
+      <button (click)="onRefresh()">Refresh</button>
+    </p>
+     
+    <!-- <a routerLink="course" click()="getCourse()" class="btn-btn-lg btn-light" >Discover Course</a> -->
+    <!-- <button onclick="getCourse($event)">Dic</button> -->
+    <!-- <select onclick="getCourse()"></select> -->
     
-    <a routerLink="join" class="btn-btn-lg btn-primary">Join Now</a>
+    <!-- <a routerLink="join" class="btn-btn-lg btn-primary">Join Now</a> -->
+    <router-outlet></router-outlet>
   </div>
 </section>
-<router-outlet></router-outlet>

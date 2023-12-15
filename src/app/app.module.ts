@@ -8,6 +8,8 @@ import { CommonModule } from '@angular/common';
 import { CourseComponent } from './course/course.component';
 import { AboutComponent } from './about/about.component';
 import { JoinnowComponent } from './joinnow/joinnow.component';
+import { DiscovercourseComponent } from './discovercourse/discovercourse.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { JoinnowComponent } from './joinnow/joinnow.component';
     CourseComponent,
     AboutComponent,
     JoinnowComponent,
+    DiscovercourseComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

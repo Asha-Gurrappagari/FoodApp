@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component , OnInit} from '@angular/core';
 import { CommonModule } from '@angular/common';
-// import { Housinglocation } from '../housinglocation';
 import { CourseComponent } from '../course/course.component';
 import { JoinnowComponent } from '../joinnow/joinnow.component';
-import { RouterModule } from '@angular/router';
+import { RouterModule , Route, Router, ActivatedRoute,ParamMap} from '@angular/router';
+
+
 
 @Component({
   selector: 'app-home',
@@ -12,14 +13,18 @@ import { RouterModule } from '@angular/router';
 })
 export class HomeComponent {
   
-    
-      // id: number= 9999;
-      // name: string = 'Test Home';
-      // city: string = 'Test city';
-      // state:string= 'ST';
-      // photo: string='assets/img/house1.jpg';
-      // availableUnits:number= 99;
-      // wifi:boolean =true;
-      // laundry: boolean=false;
-    
+    constructor(private router: Router,private route:ActivatedRoute){
+
+    }
+   ngOnInit(): void{}
+
+   getCourse(){
+    this.router.navigate(['course'],{relativeTo:this.route});
+   }
+   joinNow(){
+    this.router.navigate(['join'],{relativeTo:this.route});
+   }
+   onRefresh(){
+    this.router.navigate(['login'],{relativeTo:this.route});
+   }
 }
