@@ -18,7 +18,7 @@ export class HomeComponent {
     }
    ngOnInit(): void{}
 
-   getCourse(){
+   getMenu(){
     this.router.navigate(['course'],{relativeTo:this.route});
    }
    joinNow(){
@@ -28,3 +28,4 @@ export class HomeComponent {
     this.router.navigate(['login'],{relativeTo:this.route});
    }
 }
+  

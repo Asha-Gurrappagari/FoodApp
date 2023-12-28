@@ -23,18 +23,25 @@
     cursor: pointer;
 }
 ul{
-    columns: 4;
+    columns: 3;
     list-style-type: none;
   } 
 /* #ul img{
     height: 100%;
     width:fit-content;
 } */
-btn-primary{
+
+/* btn-primary{
     color: aqua;
 
     background-color: aqua;
+  } */
+  button{
+    padding-left: 10px;
+    text-align: center;
+    position: 10px;
   }
+  
   @media screen and (max-width :600px) {
     .course{
         background-color:#c2c7ce ;

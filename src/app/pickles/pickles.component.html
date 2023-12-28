@@ -1,19 +1,23 @@
-<section class = "course">
-    <div class="container">
-        <h1 class="text">Menu</h1>
+<section class = "Pickles">
+    <div >
+        <button (click)="getVegPickles()">Veg</button>
+        <button (click)="getNonVegPickles()">Non-Veg</button>
+        <button (click)="getAllPickles()">All</button>
+
     </div>
+
     <ul>
         <!-- <img src="/assets/img/bananaleaf.jpg"> -->
 
      <li>
         <!-- <img src="/assets/img/bananaleaf.jpg"> -->
         <div class="row">
-            <div class="col-lg-3" *ngFor = "let cs of course">
+            <div class="col-lg-3" *ngFor = "let x of pickles">
                 <div class="box" >
-                    <img src= "{{ cs.image }}" width = "80%">
-                    <h4 class = "mt-2" >{{cs.name}}</h4>
-                    <p class="mt-2">{{cs.description}}</p>
-                <div>
+                    <img src= "{{ x.image }}" width = "80%">
+                    <h4 class = "mt-2" >{{x.name}}</h4>
+                    <p class="mt-2">{{x.description}}</p>
+                <!-- <div>
                 <div *ngIf="cs.id===1">
                     <button (click)="getPickles()">Explore Pickles</button>
                     
@@ -28,9 +32,9 @@
                 </div>
                 <div *ngIf="cs.id===4">
                     <button (click)="getSpices()">Explore Spices</button>
-                </div>
+                </div> -->
                 
-            </div>
+            <!-- </div> -->
         </div>
     </div>
 </div>

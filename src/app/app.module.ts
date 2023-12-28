@@ -10,6 +10,10 @@ import { AboutComponent } from './about/about.component';
 import { JoinnowComponent } from './joinnow/joinnow.component';
 import { DiscovercourseComponent } from './discovercourse/discovercourse.component';
 import { LoginComponent } from './login/login.component';
+import { PowdersComponent } from './powders/powders.component';
+import { DalsComponent } from './dals/dals.component';
+import { SpicesComponent } from './spices/spices.component';
+import { PicklesComponent } from './pickles/pickles.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +24,10 @@ import { LoginComponent } from './login/login.component';
     JoinnowComponent,
     DiscovercourseComponent,
     LoginComponent,
+    PowdersComponent,
+    DalsComponent,
+    SpicesComponent,
+    PicklesComponent,
   ],
   imports: [
     BrowserModule,

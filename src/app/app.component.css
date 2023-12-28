@@ -46,12 +46,13 @@
     margin-left: 5px;
   }  */
   .navbar{
-     background-color: aquamarine;
+     background-color: rgb(170, 125, 49);
+     height: 70px;
   }
   .navbar-light .navbar-nav .nav-link {
     font-size: 20px;
-    color: black;
-    
+    color:black;  
+
   }
   .navbar-nav{
     list-style-type: none;
@@ -59,12 +60,17 @@
   }
   .navbar-nav .nav-link{
     padding: 10px;
-    color: brown;
-    
+    color: black;
+    /* position: absolute;  */
+    text-decoration: none;
   }
   .navbar-brand{
-    font-size: larger;
-    padding-top: 10px;
+    font-size:xx-large;
+    font-style:oblique;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-left: 650px;
+    /* text-align: center; */
   }
   .nav-link{
     padding-left: 20px;
@@ -72,4 +78,19 @@
   }
  .text-center p{
   text-align: center;
+  background-color: rgb(170, 125, 49);
+  /* padding: auto;
+  height: auto;
+  width: auto; */
  }
+.corner{
+  position: absolute; 
+  /* padding-top: 1%; */
+  padding-right: 1%;
+  top: 45px; 
+  right: 0px;
+}
+.corner a{
+  color: black;
+  text-decoration: none;
+}
