@@ -1,6 +1,6 @@
 import { Component , OnInit} from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CourseComponent } from '../course/course.component';
+import { CourseComponent } from '../Menu/course.component';
 import { JoinnowComponent } from '../joinnow/joinnow.component';
 import { RouterModule , Route, Router, ActivatedRoute,ParamMap} from '@angular/router';
 

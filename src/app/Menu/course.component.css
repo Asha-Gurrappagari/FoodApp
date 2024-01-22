@@ -12,11 +12,13 @@
 .box{
     background-color: rgb(170, 125, 49);
     padding: 10px 20px;
-    
+    overflow: hidden;
+ 
 }
 .box img{
     height:200px;
     width:275px;
+    overflow: hidden;
 }
 .box :hover{
     opacity: 0.8;

@@ -5,15 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CommonModule } from '@angular/common';
-import { CourseComponent } from './course/course.component';
+import { CourseComponent } from './Menu/course.component';
 import { AboutComponent } from './about/about.component';
 import { JoinnowComponent } from './joinnow/joinnow.component';
-import { DiscovercourseComponent } from './discovercourse/discovercourse.component';
 import { LoginComponent } from './login/login.component';
 import { PowdersComponent } from './powders/powders.component';
 import { DalsComponent } from './dals/dals.component';
 import { SpicesComponent } from './spices/spices.component';
 import { PicklesComponent } from './pickles/pickles.component';
+import { SearchComponent } from './pickles/search/search.component';
+import { TagComponent } from './tag/tag.component';
+import { SearchpComponent } from './powders/searchp/searchp.component';
+import { SearchdComponent } from './dals/searchd/searchd.component';
+import { SearchsComponent } from './spices/searchs/searchs.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
+import { FoodpageComponent } from './foodpage/foodpage.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -22,18 +29,25 @@ import { PicklesComponent } from './pickles/pickles.component';
     CourseComponent,
     AboutComponent,
     JoinnowComponent,
-    DiscovercourseComponent,
     LoginComponent,
     PowdersComponent,
     DalsComponent,
     SpicesComponent,
     PicklesComponent,
+    SearchComponent,
+    TagComponent,
+    SearchpComponent,
+    SearchdComponent,
+    SearchsComponent,
+    CartPageComponent,
+    FoodpageComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

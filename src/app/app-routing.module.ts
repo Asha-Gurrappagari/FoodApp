@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { CourseComponent } from './course/course.component';
+import { CourseComponent } from './Menu/course.component';
 import { AboutComponent } from './about/about.component';
 import { JoinnowComponent } from './joinnow/joinnow.component';
-import { DiscovercourseComponent } from './discovercourse/discovercourse.component';
 import { LoginComponent } from './login/login.component';
 import { PicklesComponent } from './pickles/pickles.component';
 import { DalsComponent } from './dals/dals.component';
 import { PowdersComponent } from './powders/powders.component';
 import { SpicesComponent } from './spices/spices.component';
+import { TagComponent } from './tag/tag.component';
+import { FoodpageComponent } from './foodpage/foodpage.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -22,12 +23,13 @@ const routes: Routes = [
 
     ]
   },
-  // { path: '/pickle/dals/powders/spices', redirectTo: 'course', pathMatch: 'prefix' },
-  // {path:'course',redirectTo:'pickle',pathMatch:'full'},
-  // {
-  //   path:'pickle',component:PicklesComponent
-  // },
-  {path:'search/:searchItem',component:CourseComponent},
+  { path:'search/:searchTerm',component:PicklesComponent},
+  { path:'searchp/:searchPowder',component:PowdersComponent},
+  { path: 'searchd/:searchDal',component:DalsComponent},
+  {path:'searchs/:searchSpice',component:SpicesComponent},
+  { path:'tag/:tag',component:PicklesComponent},
+  { path: 'food/:id',component:FoodpageComponent},
+  {path:'pickle',component:PicklesComponent},
   {
     path:'course',component:CourseComponent,
     children: [
