@@ -11,6 +11,9 @@ export class FoodService {
   getFoodById(id:number): Foods{
     return this.getAll().find(food => food.id == id)!;
   }
+  // getPowderByid(id:number): Powders{
+  //   return this.getAllPowders().find(powder => powder.id==id)!;
+  // }
   getAll():Foods[]{
     return allPickles
   }
@@ -70,4 +73,7 @@ getAllTags():Tag[]{
 getAllFoodByTag(tag:string):Foods[]{
   return tag==="All"? this.getAll():this.getAll().filter(foods=>foods.tags?.includes(tag));
 }
+// getPowderName(powderName:string){
+//   return this.getAllPowders().find(powder => powder.name==powderName)!;
+// }
 }

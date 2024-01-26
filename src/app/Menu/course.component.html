@@ -15,19 +15,19 @@
                     <p class="mt-2">{{cs.description}}</p>
                 <div>
                 <div *ngIf="cs.id===1">
-                    <button (click)="getPickles()">Explore Pickles</button>
+                    <button routerLink="/pickle">Explore Pickles</button>
                     
                 </div>
                 <div *ngIf="cs.id===2">
-                    <button (click)="getPowders()">Explore Powders</button>
+                    <button  routerLink="/powders">Explore Powders</button>
                 
                 </div>
                 <div *ngIf="cs.id===3">
-                    <button (click)="getDals()">Explore Dals</button>
+                    <button routerLink="/dals">Explore Dals</button>
                    
                 </div>
                 <div *ngIf="cs.id===4">
-                    <button (click)="getSpices()">Explore Spices</button>
+                    <button routerLink="/spices">Explore Spices</button>
                 </div>
                 
             </div>

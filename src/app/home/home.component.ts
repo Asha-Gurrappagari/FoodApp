@@ -19,13 +19,13 @@ export class HomeComponent {
    ngOnInit(): void{}
 
    getMenu(){
-    this.router.navigate(['course'],{relativeTo:this.route});
+    this.router.navigate(['/course'],{relativeTo:this.route});
    }
    joinNow(){
-    this.router.navigate(['join'],{relativeTo:this.route});
+    this.router.navigate(['/join'],{relativeTo:this.route});
    }
    onRefresh(){
-    this.router.navigate(['login'],{relativeTo:this.route});
+    this.router.navigate(['/login'],{relativeTo:this.route});
    }
 }
   

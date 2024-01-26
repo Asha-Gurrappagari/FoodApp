@@ -19,18 +19,6 @@ menu:any=[];
     {'id':3, 'name':'Dals', 'description': 'Oragnically farmed Dals with rich protien and nutrients.','image':'../../assets/img/dals.jpg'},
     {'id':4, 'name':'Spices', 'description': 'Home-made spices with rich taste and color.','image':'../../assets/img/spices.jpg'}
   ]
-getPickles(){
-  this.router.navigate(['pickle'],{relativeTo:this.route});
-}
-getPowders(){
-  this.router.navigate(['powders'],{relativeTo:this.route});
-}
-getDals(){
-  this.router.navigate(['dals'],{relativeTo:this.route});
-}
-getSpices(){
-  this.router.navigate(['spices'],{relativeTo:this.route});
-}
 }
 
 

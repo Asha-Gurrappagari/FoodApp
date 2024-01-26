@@ -21,6 +21,7 @@ import { SearchsComponent } from './spices/searchs/searchs.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { FoodpageComponent } from './foodpage/foodpage.component';
 import { RouterModule } from '@angular/router';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { RouterModule } from '@angular/router';
     SearchsComponent,
     CartPageComponent,
     FoodpageComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,

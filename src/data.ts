@@ -2,15 +2,15 @@ import { Tag } from "./app/shared/models/Tag";
 import { Dals, Foods, Spices } from "./app/shared/models/food";
 import { Powders } from "./app/shared/models/food";
 export const allPickles :Foods[]=[
-    {id:1, name:'Chicken Pickle', description: 'Freshly made Chicken pickle with home-made spices.',imageUrl:'assets/img/chicken pickle.webp',favorite: false, price : 550,star:4.0,tags:['chicken','NonVeg','All']},
-    {id:2, name:'Mutton Pickle', description: 'Freshly made Mutton pickle with home-made spices.',imageUrl:'../../assets/img/muttonpickle.webp',favorite: false,price : 700,star:4.0,tags:['Mutton','NonVeg','All']},
-    {id:3, name:'Prawns Pickle', description: 'Freshly made Prawns pickle with home-made spices.',imageUrl:'../../assets/img/prawnpickle.webp',favorite: false,price : 1000,star:4.0,tags:['Prawns','NonVeg','All']},
-    {id:4, name:'Mango Pickle', description: 'Freshly made Mango pickle with home-made spices.',imageUrl:'../../assets/img/mangopickle.webp',favorite: false,price : 500,star:4.0,tags:['Mango','Veg','All']},
-    {id:5, name:'Gongura Pickle', description: 'Freshly made Gongura pickle with home-made spices.',imageUrl:'../../assets/img/gongurapickle.jpg',favorite: false,price : 500,star:4.0,tags:['Gongura','Veg','All']},
-    {id:6, name:'Drumstick Pickle', description: 'Freshly made Drumstick pickle with home-made spices.',imageUrl:'../../assets/img/DrumstickPickle.jpg',favorite: false,price : 500,star:4.0,tags:['Drumstick','Veg','All']},
-    {id:7, name:'Lemon Pickle', description: 'Freshly made Lemon pickle with home-made spices.',imageUrl:'../../assets/img/lemonpickle.jpg',favorite: false,price : 500,star:4.0,tags:['Lemon','Veg','All']},
-    {id:8, name:'Red Chilli Pickle', description: 'Freshly made Red-Chilli pickle with home-made spices.',imageUrl:'../../assets/img/redchillipickle.webp',favorite: false,price : 500,star:4.0,tags:['Redchilli','Veg','All']},
-    {id:9, name:'Tomato Pickle', description: 'Freshly made Tomato pickle with home-made spices.',imageUrl:'../../assets/img/tomatopickle.jpg',favorite: false,price : 500,star:4.0,tags:['Tomato','Veg','All']}
+    {id:1, name:'Chicken Pickle', description: 'Freshly made Chicken pickle with home-made spices.',imageUrl:'assets/img/chicken pickle.webp',favorite: true, price : 550,star:4.0,tags:['NonVeg','All']},
+    {id:2, name:'Mutton Pickle', description: 'Freshly made Mutton pickle with home-made spices.',imageUrl:'../../assets/img/muttonpickle.webp',favorite: true,price : 700,star:4.0,tags:['NonVeg','All']},
+    {id:3, name:'Prawns Pickle', description: 'Freshly made Prawns pickle with home-made spices.',imageUrl:'../../assets/img/prawnpickle.webp',favorite: true,price : 1000,star:4.0,tags:['NonVeg','All']},
+    {id:4, name:'Mango Pickle', description: 'Freshly made Mango pickle with home-made spices.',imageUrl:'../../assets/img/mangopickle.webp',favorite: true,price : 500,star:4.0,tags:['Veg','All']},
+    {id:5, name:'Gongura Pickle', description: 'Freshly made Gongura pickle with home-made spices.',imageUrl:'../../assets/img/gongurapickle.jpg',favorite: false,price : 500,star:4.0,tags:['Veg','All']},
+    {id:6, name:'Drumstick Pickle', description: 'Freshly made Drumstick pickle with home-made spices.',imageUrl:'../../assets/img/DrumstickPickle.jpg',favorite: false,price : 500,star:4.0,tags:['Veg','All']},
+    {id:7, name:'Lemon Pickle', description: 'Freshly made Lemon pickle with home-made spices.',imageUrl:'../../assets/img/lemonpickle.jpg',favorite: false,price : 500,star:4.0,tags:['Veg','All']},
+    {id:8, name:'Red Chilli Pickle', description: 'Freshly made Red-Chilli pickle with home-made spices.',imageUrl:'../../assets/img/redchillipickle.webp',favorite: false,price : 500,star:4.0,tags:['Veg','All']},
+    {id:9, name:'Tomato Pickle', description: 'Freshly made Tomato pickle with home-made spices.',imageUrl:'../../assets/img/tomatopickle.jpg',favorite: false,price : 500,star:4.0,tags:['Veg','All']}
 ]
 export const allPowders :Powders[]=[
     {id:1, name:'Gun Powder', description: 'Freshly made Mango pickle with home-made spices.',imageUrl:'../../assets/img/GunPowder.webp',favorite: false,price : 500,star:4.0},

@@ -9,4 +9,11 @@ export class Cart{
         });
         return totalPrice;
     }
+    // get totalpprice():number{
+    //     let totalpprice = 0;
+    //     this.items.forEach(item=>{
+    //         totalpprice += item.pprice;
+    //     });
+    //     return totalpprice;
+    // }
 }

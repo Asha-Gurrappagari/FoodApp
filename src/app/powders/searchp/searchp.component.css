@@ -1,8 +1,8 @@
 div{
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
+    padding-top: 3rem;
+    background-color: rgb(127, 112, 86);
 }
 input{
     border: none;

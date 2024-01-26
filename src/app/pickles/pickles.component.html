@@ -1,13 +1,14 @@
 <app-search></app-search>
 <app-tag></app-tag>
+<app-not-found [visible]="!foods || foods.length <=0" resetLinkText="Reset Search"></app-not-found>
 <section class = "Pickles">
  <ul>
     <li >
         <div class="row">
         <div class="col-lg-3" *ngFor = "let food of foods">
             <div class="box" >
-                <a routerLink ="/food" routerLinkActive="active"></a>
-                    <img src= "{{food.imageUrl}}" alt="food.name" width="80%">
+                <div routerLink="/food/{{food.id}}">
+                <img src= "{{food.imageUrl}}" alt="food.name" width="80%">
                     <div class="content">
                         <div class="name">
                             {{food.name}}
@@ -20,6 +21,7 @@
                             {{food.price|currency:"INR":"symbol"}}
                         </div>
                     </div>
+                </div>
                 </div>
             </div>  
         </div>

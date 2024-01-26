@@ -11,6 +11,7 @@ import { PowdersComponent } from './powders/powders.component';
 import { SpicesComponent } from './spices/spices.component';
 import { TagComponent } from './tag/tag.component';
 import { FoodpageComponent } from './foodpage/foodpage.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -26,20 +27,22 @@ const routes: Routes = [
   { path:'search/:searchTerm',component:PicklesComponent},
   { path:'searchp/:searchPowder',component:PowdersComponent},
   { path: 'searchd/:searchDal',component:DalsComponent},
-  {path:'searchs/:searchSpice',component:SpicesComponent},
+  { path:'searchs/:searchSpice',component:SpicesComponent},
   { path:'tag/:tag',component:PicklesComponent},
   { path: 'food/:id',component:FoodpageComponent},
-  {path:'pickle',component:PicklesComponent},
-  {
-    path:'course',component:CourseComponent,
-    children: [
-      {path:'pickle',component:PicklesComponent},
-      {path:'dals',component:DalsComponent},
-      {path:'powders',component:PowdersComponent},
-      {path:'spices',component:SpicesComponent}
+  // { path: 'powder/:id',component:FoodpageComponent},
+  { path:'pickle',component:PicklesComponent},
+  {path:'dals',component:DalsComponent},
+  {path:'powders',component:PowdersComponent},
+  {path:'spices',component:SpicesComponent},
+  { path:'course',component:CourseComponent},
+  { path: 'cart-page',component:CartPageComponent},
+  // {path:'pickle',component:PicklesComponent,
+  // children:[
+  //   { path: 'food/:id',component:FoodpageComponent},
 
-    ]
-  },
+  // ]},
+
   {
     path:'about',component:AboutComponent
   },

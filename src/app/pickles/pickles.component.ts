@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FoodService } from '../services/food/food.service';
 import { Foods } from '../shared/models/food';
-import { ActivatedRoute,RouterModule } from '@angular/router';
+import { ActivatedRoute,RouterModule, Route, Router } from '@angular/router';
 import { FoodpageComponent } from '../foodpage/foodpage.component';
 @Component({
   selector: 'app-pickles',
@@ -10,7 +10,7 @@ import { FoodpageComponent } from '../foodpage/foodpage.component';
 })
 export class PicklesComponent implements OnInit{
   foods:Foods[]=[];
- constructor(private api:FoodService,activateRoute:ActivatedRoute){
+ constructor(private api:FoodService,activateRoute:ActivatedRoute,private router: Router){
   activateRoute.params.subscribe((params)=>{
     if(params.searchTerm)
     this.foods=this.api.getAllFoodBySearchTerm(params.searchTerm)
