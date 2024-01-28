@@ -12,6 +12,9 @@ import { SpicesComponent } from './spices/spices.component';
 import { TagComponent } from './tag/tag.component';
 import { FoodpageComponent } from './foodpage/foodpage.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
+import { FoodppComponent } from './powders/foodpp/foodpp.component';
+import { FooddComponent } from './dals/foodd/foodd.component';
+import { FoodspComponent } from './spices/foodsp/foodsp.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -30,7 +33,9 @@ const routes: Routes = [
   { path:'searchs/:searchSpice',component:SpicesComponent},
   { path:'tag/:tag',component:PicklesComponent},
   { path: 'food/:id',component:FoodpageComponent},
-  // { path: 'powder/:id',component:FoodpageComponent},
+  { path: 'powder/:id',component:FoodppComponent},
+  { path: 'dals/:id',component:FooddComponent},  
+  { path: 'spices/:id',component:FoodspComponent},  
   { path:'pickle',component:PicklesComponent},
   {path:'dals',component:DalsComponent},
   {path:'powders',component:PowdersComponent},

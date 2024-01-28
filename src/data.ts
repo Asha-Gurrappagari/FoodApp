@@ -11,6 +11,13 @@ export const allPickles :Foods[]=[
     {id:7, name:'Lemon Pickle', description: 'Freshly made Lemon pickle with home-made spices.',imageUrl:'../../assets/img/lemonpickle.jpg',favorite: false,price : 500,star:4.0,tags:['Veg','All']},
     {id:8, name:'Red Chilli Pickle', description: 'Freshly made Red-Chilli pickle with home-made spices.',imageUrl:'../../assets/img/redchillipickle.webp',favorite: false,price : 500,star:4.0,tags:['Veg','All']},
     {id:9, name:'Tomato Pickle', description: 'Freshly made Tomato pickle with home-made spices.',imageUrl:'../../assets/img/tomatopickle.jpg',favorite: false,price : 500,star:4.0,tags:['Veg','All']}
+    // {id:10, name:'Gun Powder', description: 'Freshly made Mango pickle with home-made spices.',imageUrl:'../../assets/img/GunPowder.webp',favorite: false,price : 500,star:4.0,tags:['Veg','All']},
+    // {id:11, name:'Peanut Powder', description: 'Freshly made Gongura pickle with home-made spices.',imageUrl:'../../assets/img/peanutpowder.jpeg',favorite: false,price : 500,star:4.0,tags:['Veg','All']},
+    // {id:12, name:'Roasted ChannaDal Powder', description: 'Freshly made Drumstick pickle with home-made spices.',imageUrl:'../../assets/img/RoastedCDPowder.JPG',favorite: false,price : 500,star:4.0,tags:['Veg','All']},
+    // {id:13, name:'Idli Karam', description: 'Freshly made Lemon pickle with home-made spices.',imageUrl:'../../assets/img/IdliKaram.jpg',favorite: false,price : 500,star:4.0,tags:['Veg','All']},
+    // {id:14, name:'Sesame Powder', description: 'Freshly made Red-Chilli pickle with home-made spices.',imageUrl:'../../assets/img/sesamepowder.jpg',favorite: false,price : 500,star:4.0,tags:['Veg','All']},
+    // {id:15, name:'Horse Gram Powder', description: 'Freshly made Tomato pickle with home-made spices.',imageUrl:'../../assets/img/Horsegrampowder.webp',favorite: false,price : 500,star:4.0,tags:['Veg','All']}
+
 ]
 export const allPowders :Powders[]=[
     {id:1, name:'Gun Powder', description: 'Freshly made Mango pickle with home-made spices.',imageUrl:'../../assets/img/GunPowder.webp',favorite: false,price : 500,star:4.0},

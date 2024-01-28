@@ -1,14 +1,14 @@
-<section class="food">
-<app-not-found [visible]="!food" notfoundmessage="Product Not Found!"
+<app-not-found [visible]="!dals" notfoundmessage="Product Not Found!"
 resetLinkText="Back To Homepage"></app-not-found>
-<div *ngIf="food" class="container">
-    <img [src]="food.imageUrl" [alt]="food.name">
+
+<div *ngIf="dals" class="container">
+    <img [src]="dals.imageUrl" [alt]="dals.name">
 <div class="details">
     <div class="header">
         <span class="name">
-            {{food.name}}
+            {{dals.name}}
         </span>
-        <span class="favorite {{food.favorite?'':'not'}}">♥</span>
+        <span class="favorite {{dals.favorite?'':'not'}}">♥</span>
     </div>
     <!-- <div class="star">
         <star-rating [value]="food.star"
@@ -21,20 +21,14 @@ resetLinkText="Back To Homepage"></app-not-found>
     </div> -->
     <div class="description">
         <span>
-            {{food.description}}
+            {{dals.description}}
         </span>
     </div>
     <div class="price">
             <span>
-                {{food.price|currency:"INR":"symbol"}}
+                {{dals.price|currency:"INR":"symbol"}}
             </span>
     </div>
-    <button (click)="addToCart()">Add to Cart</button>
-
-    <div class="tag">
-        <app-tag [foodPagetags]="food.tags" justifyContent="start"></app-tag>
-    </div>
+    <button (click)="addToCartD()">Add to Cart</button>
 </div>
 </div>
-</section> 
-

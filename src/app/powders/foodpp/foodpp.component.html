@@ -1,14 +1,14 @@
-<section class="food">
-<app-not-found [visible]="!food" notfoundmessage="Product Not Found!"
+<app-not-found [visible]="!powder" notfoundmessage="Product Not Found!"
 resetLinkText="Back To Homepage"></app-not-found>
-<div *ngIf="food" class="container">
-    <img [src]="food.imageUrl" [alt]="food.name">
+
+<div *ngIf="powder" class="container">
+    <img [src]="powder.imageUrl" [alt]="powder.name">
 <div class="details">
     <div class="header">
         <span class="name">
-            {{food.name}}
+            {{powder.name}}
         </span>
-        <span class="favorite {{food.favorite?'':'not'}}">♥</span>
+        <span class="favorite {{powder.favorite?'':'not'}}">♥</span>
     </div>
     <!-- <div class="star">
         <star-rating [value]="food.star"
@@ -21,20 +21,14 @@ resetLinkText="Back To Homepage"></app-not-found>
     </div> -->
     <div class="description">
         <span>
-            {{food.description}}
+            {{powder.description}}
         </span>
     </div>
     <div class="price">
             <span>
-                {{food.price|currency:"INR":"symbol"}}
+                {{powder.price|currency:"INR":"symbol"}}
             </span>
     </div>
-    <button (click)="addToCart()">Add to Cart</button>
-
-    <div class="tag">
-        <app-tag [foodPagetags]="food.tags" justifyContent="start"></app-tag>
-    </div>
+    <button (click)="addToCartP()">Add to Cart</button>
 </div>
 </div>
-</section> 
-

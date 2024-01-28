@@ -22,6 +22,10 @@ import { CartPageComponent } from './cart-page/cart-page.component';
 import { FoodpageComponent } from './foodpage/foodpage.component';
 import { RouterModule } from '@angular/router';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { FoodppComponent } from './powders/foodpp/foodpp.component';
+import { FooddComponent } from './dals/foodd/foodd.component';
+import { FoodspComponent } from './spices/foodsp/foodsp.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +47,10 @@ import { NotFoundComponent } from './not-found/not-found.component';
     CartPageComponent,
     FoodpageComponent,
     NotFoundComponent,
+    FoodppComponent,
+    FooddComponent,
+    FoodspComponent,
+    CheckoutComponent,
   ],
   imports: [
     BrowserModule,

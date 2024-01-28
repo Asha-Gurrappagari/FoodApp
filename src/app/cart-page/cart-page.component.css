@@ -52,7 +52,19 @@ ul .remove-button{
     opacity: 0.7;
     color: rgb(170, 125, 49);
 }
+ul .remove-buttonp{
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    padding: .5rem;
+    opacity: 0.7;
+    color: rgb(170, 125, 49);
+}
 ul .remove-button:hover{
+    opacity: 1;
+    cursor:pointer;
+}
+ul .remove-buttonp:hover{
     opacity: 1;
     cursor:pointer;
 }

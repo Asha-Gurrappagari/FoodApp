@@ -10,7 +10,9 @@ import { FoodpageComponent } from '../foodpage/foodpage.component';
 })
 export class PicklesComponent implements OnInit{
   foods:Foods[]=[];
+  
  constructor(private api:FoodService,activateRoute:ActivatedRoute,private router: Router){
+
   activateRoute.params.subscribe((params)=>{
     if(params.searchTerm)
     this.foods=this.api.getAllFoodBySearchTerm(params.searchTerm)
@@ -18,7 +20,7 @@ export class PicklesComponent implements OnInit{
     this.foods=this.api.getAllFoodByTag(params.tag)
     else
     this.foods = this.api.getAll();
-  })
+})
  }
  ngOnInit(): void{
  }

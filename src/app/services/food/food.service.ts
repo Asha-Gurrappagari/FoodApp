@@ -11,9 +11,15 @@ export class FoodService {
   getFoodById(id:number): Foods{
     return this.getAll().find(food => food.id == id)!;
   }
-  // getPowderByid(id:number): Powders{
-  //   return this.getAllPowders().find(powder => powder.id==id)!;
-  // }
+  getPowderByid(id:number): Powders{
+    return this.getAllPowders().find(powder => powder.id==id)!;
+  }
+  getDalByid(id:number): Dals{
+    return this.getAllDals().find(dals => dals.id==id)!;
+  }
+  getSpiceByid(id:number): Spices{
+    return this.getAllSpices().find(Spices => Spices.id==id)!;
+  }
   getAll():Foods[]{
     return allPickles
   }
