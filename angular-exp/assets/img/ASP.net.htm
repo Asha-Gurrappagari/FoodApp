@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="true">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<!-- This site is optimized with the Yoast SEO plugin v21.6 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>An introduction of ASP.NET  - DevOpsSchool.com</title>
+<link rel="canonical" href="https://www.devopsschool.com/blog/an-introduction-of-asp-net/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="An introduction of ASP.NET  - DevOpsSchool.com" />
+<meta property="og:description" content="What is ASP.NET ? It is a web framework designed and developed by Microsoft. It is used to develop websites, web applications and web services. It provides fantastic integration of..." />
+<meta property="og:url" content="https://www.devopsschool.com/blog/an-introduction-of-asp-net/" />
+<meta property="og:site_name" content="DevOpsSchool.com" />
+<meta property="article:publisher" content="https://www.facebook.com/DevOpsSchool/" />
+<meta property="article:author" content="https://www.facebook.com/rajeshkumarIn" />
+<meta property="article:published_time" content="2022-02-25T11:34:26+00:00" />
+<meta property="article:modified_time" content="2022-12-23T06:48:40+00:00" />
+<meta property="og:image" content="https://www.devopsschool.com/blog/wp-content/uploads/2022/02/asp.net-logo-1024x576.jpg" />
+<meta name="author" content="Rajesh Kumar" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@RajeshKumarIN" />
+<meta name="twitter:site" content="@devopsschools" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="Rajesh Kumar" />
+<meta name="twitter:label2" content="Est. reading time" />
+<meta name="twitter:data2" content="4 minutes" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.devopsschool.com/blog/an-introduction-of-asp-net/","url":"https://www.devopsschool.com/blog/an-introduction-of-asp-net/","name":"An introduction of ASP.NET  - DevOpsSchool.com","isPartOf":{"@id":"https://www.devopsschool.com/blog/#website"},"primaryImageOfPage":{"@id":"https://www.devopsschool.com/blog/an-introduction-of-asp-net/#primaryimage"},"image":{"@id":"https://www.devopsschool.com/blog/an-introduction-of-asp-net/#primaryimage"},"thumbnailUrl":"https://www.devopsschool.com/blog/wp-content/uploads/2022/02/asp.net-logo-1024x576.jpg","datePublished":"2022-02-25T11:34:26+00:00","dateModified":"2022-12-23T06:48:40+00:00","author":{"@id":"https://www.devopsschool.com/blog/#/schema/person/a40e0dd38feee7c2779460a804d49361"},"breadcrumb":{"@id":"https://www.devopsschool.com/blog/an-introduction-of-asp-net/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.devopsschool.com/blog/an-introduction-of-asp-net/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.devopsschool.com/blog/an-introduction-of-asp-net/#primaryimage","url":"https://www.devopsschool.com/blog/wp-content/uploads/2022/02/asp.net-logo.jpg","contentUrl":"https://www.devopsschool.com/blog/wp-content/uploads/2022/02/asp.net-logo.jpg","width":1280,"height":720},{"@type":"BreadcrumbList","@id":"https://www.devopsschool.com/blog/an-introduction-of-asp-net/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.devopsschool.com/blog/"},{"@type":"ListItem","position":2,"name":"An introduction of ASP.NET "}]},{"@type":"WebSite","@id":"https://www.devopsschool.com/blog/#website","url":"https://www.devopsschool.com/blog/","name":"DevOpsSchool.com","description":"DevOps, SRE, DevSecOps, Container and Microservices","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.devopsschool.com/blog/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Person","@id":"https://www.devopsschool.com/blog/#/schema/person/a40e0dd38feee7c2779460a804d49361","name":"Rajesh Kumar","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.devopsschool.com/blog/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/08d3fa1e7a2b3037e01b8df30385e7df?s=96&r=g","contentUrl":"https://secure.gravatar.com/avatar/08d3fa1e7a2b3037e01b8df30385e7df?s=96&r=g","caption":"Rajesh Kumar"},"description":"Join my following certification courses... - DevOps Certified Professionals (DCP) - Site Reliability Engineering Certified Professionals (SRECP) - Master in DevOps Engineering (MDE) - DevSecOps Certified Professionals (DSOCP) URL - https://www.devopsschool.com/certification/ My Linkedin - https://www.linkedin.com/in/rajeshkumarin","sameAs":["http://www.RajeshKumar.xyz","https://www.facebook.com/rajeshkumarIn","https://www.instagram.com/rajeshkumarin/","https://www.linkedin.com/in/rajeshkumarin","https://twitter.com/RajeshKumarIN","https://www.youtube.com/channel/UCrXr49kBvXJeQMMl2693c4g"],"url":"https://www.devopsschool.com/blog/author/rajeshkumar/"}]}</script>
+<!-- / Yoast SEO plugin. -->
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel="alternate" type="application/rss+xml" title="DevOpsSchool.com &raquo; Feed" href="https://www.devopsschool.com/blog/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DevOpsSchool.com &raquo; Comments Feed" href="https://www.devopsschool.com/blog/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DevOpsSchool.com &raquo; An introduction of ASP.NET  Comments Feed" href="https://www.devopsschool.com/blog/an-introduction-of-asp-net/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.devopsschool.com\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+img.wp-smiley, img.emoji {
+display: inline !important;
+border: none !important;
+box-shadow: none !important;
+height: 1em !important;
+width: 1em !important;
+margin: 0 0.07em !important;
+vertical-align: -0.1em !important;
+background: none !important;
+padding: 0 !important;
+}
+</style>
+<!-- <link rel='stylesheet' id='wp-block-library-css' href='https://www.devopsschool.com/blog/wp-includes/css/dist/block-library/style.min.css?ver=6.4.1' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//www.devopsschool.com/blog/wp-content/cache/wpfc-minified/1dmx7wc1/2szu2.css" media="all"/>
+<style id='joinchat-button-style-inline-css' type='text/css'>
+.wp-block-joinchat-button{border:none!important;text-align:center}.wp-block-joinchat-button figure{display:table;margin:0 auto;padding:0}.wp-block-joinchat-button figcaption{font:normal normal 400 .6em/2em var(--wp--preset--font-family--system-font,sans-serif);margin:0;padding:0}.wp-block-joinchat-button .joinchat-button__qr{background-color:#fff;border:6px solid #25d366;border-radius:30px;box-sizing:content-box;display:block;height:200px;margin:auto;overflow:hidden;padding:10px;width:200px}.wp-block-joinchat-button .joinchat-button__qr canvas,.wp-block-joinchat-button .joinchat-button__qr img{display:block;margin:auto}.wp-block-joinchat-button .joinchat-button__link{align-items:center;background-color:#25d366;border:6px solid #25d366;border-radius:30px;display:inline-flex;flex-flow:row nowrap;justify-content:center;line-height:1.25em;margin:0 auto;text-decoration:none}.wp-block-joinchat-button .joinchat-button__link:before{background:transparent var(--joinchat-ico) no-repeat center;background-size:100%;content:"";display:block;height:1.5em;margin:-.75em .75em -.75em 0;width:1.5em}.wp-block-joinchat-button figure+.joinchat-button__link{margin-top:10px}@media (orientation:landscape)and (min-height:481px),(orientation:portrait)and (min-width:481px){.wp-block-joinchat-button.joinchat-button--qr-only figure+.joinchat-button__link{display:none}}@media (max-width:480px),(orientation:landscape)and (max-height:480px){.wp-block-joinchat-button figure{display:none}}
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<!-- <link rel='stylesheet' id='simple-banner-style-css' href='https://www.devopsschool.com/blog/wp-content/plugins/simple-banner/simple-banner.css?ver=2.16.0' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wpdiscuz-frontend-css-css' href='https://www.devopsschool.com/blog/wp-content/plugins/wpdiscuz/themes/default/style.css?ver=7.6.13' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//www.devopsschool.com/blog/wp-content/cache/wpfc-minified/eqnwh4m1/2szu2.css" media="all"/>
+<style id='wpdiscuz-frontend-css-inline-css' type='text/css'>
+#wpdcom .wpd-blog-administrator .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-administrator .wpd-comment-author, #wpdcom .wpd-blog-administrator .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-administrator .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply .wpd-comment-wrap.wpd-blog-administrator{border-left:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-administrator .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-administrator .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-administrator .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-editor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-editor .wpd-comment-author, #wpdcom .wpd-blog-editor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-editor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply .wpd-comment-wrap.wpd-blog-editor{border-left:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-editor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-editor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-editor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-author .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-author .wpd-comment-author, #wpdcom .wpd-blog-author .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-author .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-author .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-author .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-contributor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-contributor .wpd-comment-author, #wpdcom .wpd-blog-contributor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-contributor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-contributor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-contributor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-contributor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-subscriber .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-subscriber .wpd-comment-author, #wpdcom .wpd-blog-subscriber .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-subscriber .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-subscriber .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom .wpd-blog-wpseo_manager .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-wpseo_manager .wpd-comment-author, #wpdcom .wpd-blog-wpseo_manager .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-wpseo_manager .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-wpseo_manager .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-wpseo_manager .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-wpseo_manager .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-wpseo_editor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-wpseo_editor .wpd-comment-author, #wpdcom .wpd-blog-wpseo_editor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-wpseo_editor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-wpseo_editor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-wpseo_editor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-wpseo_editor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-post_author .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-post_author .wpd-comment-author, #wpdcom .wpd-blog-post_author .wpd-comment-author a{color:#00B38F}#wpdcom .wpd-blog-post_author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-post_author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply .wpd-comment-wrap.wpd-blog-post_author{border-left:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-post_author .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-post_author .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-post_author .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-guest .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-guest .wpd-comment-author, #wpdcom .wpd-blog-guest .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-guest .wpd-comment-subheader{border-top:1px dashed #00B38F}#comments, #respond, .comments-area, #wpdcom{}#wpdcom .ql-editor > *{color:#777777}#wpdcom .ql-editor::before{}#wpdcom .ql-toolbar{border:1px solid #DDDDDD;border-top:none}#wpdcom .ql-container{border:1px solid #DDDDDD;border-bottom:none}#wpdcom .wpd-form-row .wpdiscuz-item input[type="text"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="email"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="url"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="color"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="date"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="datetime"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="datetime-local"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="month"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="number"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="time"], #wpdcom textarea, #wpdcom select{border:1px solid #DDDDDD;color:#777777}#wpdcom .wpd-form-row .wpdiscuz-item textarea{border:1px solid #DDDDDD}#wpdcom input::placeholder, #wpdcom textarea::placeholder, #wpdcom input::-moz-placeholder, #wpdcom textarea::-webkit-input-placeholder{}#wpdcom .wpd-comment-text{color:#777777}#wpdcom .wpd-thread-head .wpd-thread-info{border-bottom:2px solid #00B38F}#wpdcom .wpd-thread-head .wpd-thread-info.wpd-reviews-tab svg{fill:#00B38F}#wpdcom .wpd-thread-head .wpdiscuz-user-settings{border-bottom:2px solid #00B38F}#wpdcom .wpd-thread-head .wpdiscuz-user-settings:hover{color:#00B38F}#wpdcom .wpd-comment .wpd-follow-link:hover{color:#00B38F}#wpdcom .wpd-comment-status .wpd-sticky{color:#00B38F}#wpdcom .wpd-thread-filter .wpdf-active{color:#00B38F;border-bottom-color:#00B38F}#wpdcom .wpd-comment-info-bar{border:1px dashed #33c3a6;background:#e6f8f4}#wpdcom .wpd-comment-info-bar .wpd-current-view i{color:#00B38F}#wpdcom .wpd-filter-view-all:hover{background:#00B38F}#wpdcom .wpdiscuz-item .wpdiscuz-rating > label{color:#DDDDDD}#wpdcom .wpdiscuz-item .wpdiscuz-rating:not(:checked) > label:hover, .wpdiscuz-rating:not(:checked) > label:hover ~ label{}#wpdcom .wpdiscuz-item .wpdiscuz-rating > input ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label{color:#FFED85}#wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > label:hover ~ input:checked ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked + label:hover ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover ~ label, .wpd-custom-field .wcf-active-star, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label{color:#FFD700}#wpd-post-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-star{fill:#DDDDDD}#wpd-post-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-active{fill:#FFD700}#wpd-post-rating .wpd-rating-wrap .wpd-rate-starts svg .wpd-star{fill:#DDDDDD}#wpd-post-rating .wpd-rating-wrap .wpd-rate-starts:hover svg .wpd-star{fill:#FFED85}#wpd-post-rating.wpd-not-rated .wpd-rating-wrap .wpd-rate-starts svg:hover ~ svg .wpd-star{fill:#DDDDDD}.wpdiscuz-post-rating-wrap .wpd-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-star{fill:#DDDDDD}.wpdiscuz-post-rating-wrap .wpd-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-active{fill:#FFD700}#wpdcom .wpd-comment .wpd-follow-active{color:#ff7a00}#wpdcom .page-numbers{color:#555;border:#555 1px solid}#wpdcom span.current{background:#555}#wpdcom.wpd-layout-1 .wpd-new-loaded-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment.wpd-reply > .wpd-comment-wrap > .wpd-comment-right{background:transparent}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment.wpd-reply > .wpd-comment-wrap{background:#FFFAD6}#wpdcom.wpd-layout-3 .wpd-new-loaded-comment.wpd-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom .wpd-follow:hover i, #wpdcom .wpd-unfollow:hover i, #wpdcom .wpd-comment .wpd-follow-active:hover i{color:#00B38F}#wpdcom .wpdiscuz-readmore{cursor:pointer;color:#00B38F}.wpd-custom-field .wcf-pasiv-star, #wpcomm .wpdiscuz-item .wpdiscuz-rating > label{color:#DDDDDD}.wpd-wrapper .wpd-list-item.wpd-active{border-top:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply.wpd-unapproved-comment .wpd-comment-wrap{border-left:3px solid #FFFAD6}#wpdcom.wpd-layout-3 .wpd-comment.wpd-reply.wpd-unapproved-comment .wpd-comment-right{border-left:1px solid #FFFAD6}#wpdcom .wpd-prim-button{background-color:#07B290;color:#FFFFFF}#wpdcom .wpd_label__check i.wpdicon-on{color:#07B290;border:1px solid #83d9c8}#wpd-bubble-wrapper #wpd-bubble-all-comments-count{color:#1DB99A}#wpd-bubble-wrapper > div{background-color:#1DB99A}#wpd-bubble-wrapper > #wpd-bubble #wpd-bubble-add-message{background-color:#1DB99A}#wpd-bubble-wrapper > #wpd-bubble #wpd-bubble-add-message::before{border-left-color:#1DB99A;border-right-color:#1DB99A}#wpd-bubble-wrapper.wpd-right-corner > #wpd-bubble #wpd-bubble-add-message::before{border-left-color:#1DB99A;border-right-color:#1DB99A}.wpd-inline-icon-wrapper path.wpd-inline-icon-first{fill:#1DB99A}.wpd-inline-icon-count{background-color:#1DB99A}.wpd-inline-icon-count::before{border-right-color:#1DB99A}.wpd-inline-form-wrapper::before{border-bottom-color:#1DB99A}.wpd-inline-form-question{background-color:#1DB99A}.wpd-inline-form{background-color:#1DB99A}.wpd-last-inline-comments-wrapper{border-color:#1DB99A}.wpd-last-inline-comments-wrapper::before{border-bottom-color:#1DB99A}.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments{background:#1DB99A}.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:hover,.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:active,.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:focus{background-color:#1DB99A}#wpdcom .ql-snow .ql-tooltip[data-mode="link"]::before{content:"Enter link:"}#wpdcom .ql-snow .ql-tooltip.ql-editing a.ql-action::after{content:"Save"}.comments-area{width:auto}
+</style>
+<!-- <link rel='stylesheet' id='wpdiscuz-fa-css' href='https://www.devopsschool.com/blog/wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.13.0/css/fa.min.css?ver=7.6.13' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wpdiscuz-combo-css-css' href='https://www.devopsschool.com/blog/wp-content/plugins/wpdiscuz/assets/css/wpdiscuz-combo.min.css?ver=6.4.1' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='ez-toc-css' href='https://www.devopsschool.com/blog/wp-content/plugins/easy-table-of-contents/assets/css/screen.min.css?ver=2.0.59' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//www.devopsschool.com/blog/wp-content/cache/wpfc-minified/79tt6qcg/2szu2.css" media="all"/>
+<style id='ez-toc-inline-css' type='text/css'>
+div#ez-toc-container .ez-toc-title {font-size: 120%;}div#ez-toc-container .ez-toc-title {font-weight: 500;}div#ez-toc-container ul li {font-size: 95%;}div#ez-toc-container nav ul ul li ul li {font-size: 90%!important;}
+.ez-toc-container-direction {direction: ltr;}.ez-toc-counter ul{counter-reset: item ;}.ez-toc-counter nav ul li a::before {content: counters(item, ".", decimal) ". ";display: inline-block;counter-increment: item;flex-grow: 0;flex-shrink: 0;margin-right: .2em; float: left; }.ez-toc-widget-direction {direction: ltr;}.ez-toc-widget-container ul{counter-reset: item ;}.ez-toc-widget-container nav ul li a::before {content: counters(item, ".", decimal) ". ";display: inline-block;counter-increment: item;flex-grow: 0;flex-shrink: 0;margin-right: .2em; float: left; }
+</style>
+<!-- <link rel='stylesheet' id='revenue-style-css' href='https://www.devopsschool.com/blog/wp-content/themes/revenue/style.css?ver=20180523' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='genericons-style-css' href='https://www.devopsschool.com/blog/wp-content/themes/revenue/genericons/genericons.css?ver=6.4.1' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='responsive-style-css' href='https://www.devopsschool.com/blog/wp-content/themes/revenue/responsive.css?ver=20171012' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='joinchat-css' href='https://www.devopsschool.com/blog/wp-content/plugins/creame-whatsapp-me/public/css/joinchat-btn.min.css?ver=5.0.15' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='__EPYT__style-css' href='https://www.devopsschool.com/blog/wp-content/plugins/youtube-embed-plus/styles/ytprefs.min.css?ver=14.2' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//www.devopsschool.com/blog/wp-content/cache/wpfc-minified/dtoqp2ra/2szu2.css" media="all"/>
+<style id='__EPYT__style-inline-css' type='text/css'>
+.epyt-gallery-thumb {
+width: 33.333%;
+}
+</style>
+<script src='//www.devopsschool.com/blog/wp-content/cache/wpfc-minified/frmf43on/2szu2.js' type="text/javascript"></script>
+<!-- <script type="text/javascript" src="https://www.devopsschool.com/blog/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script> -->
+<!-- <script type="text/javascript" src="https://www.devopsschool.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script> -->
+<script type="text/javascript" id="simple-banner-script-js-before">
+/* <![CDATA[ */
+const simpleBannerScriptParams = {"version":"2.16.0","hide_simple_banner":"no","simple_banner_prepend_element":false,"simple_banner_position":"","header_margin":"","header_padding":"","simple_banner_z_index":"","simple_banner_text":"\ud83d\ude80 <a href=\"https:\/\/devopsschool.com\/certification\/devops-certified-professional-dcp.html\">DevOps Certified Professional (DCP)<\/a> \ud83d\udcc5 Starting: 4th Nov 2023 \ud83e\udd1d +91 7004215841 \ud83d\udd0d Contact@DevOpsSchool.com","pro_version_enabled":"","disabled_on_current_page":false,"debug_mode":"","id":27714,"disabled_pages_array":[],"is_current_page_a_post":true,"disabled_on_posts":"","simple_banner_font_size":"20px","simple_banner_color":"","simple_banner_text_color":"","simple_banner_link_color":"","simple_banner_close_color":"","simple_banner_custom_css":"","simple_banner_scrolling_custom_css":"","simple_banner_text_custom_css":"","simple_banner_button_css":"","site_custom_css":"","keep_site_custom_css":"","site_custom_js":"","keep_site_custom_js":"","wp_body_open_enabled":"","wp_body_open":true,"close_button_enabled":"on","close_button_expiration":"","close_button_cookie_set":false,"current_date":{"date":"2023-12-06 08:41:41.558100","timezone_type":3,"timezone":"UTC"},"start_date":{"date":"2023-12-06 08:41:41.558109","timezone_type":3,"timezone":"UTC"},"end_date":{"date":"2023-12-06 08:41:41.558113","timezone_type":3,"timezone":"UTC"},"simple_banner_start_after_date":"","simple_banner_remove_after_date":"","simple_banner_insert_inside_element":""}
+/* ]]> */
+</script>
+<script src='//www.devopsschool.com/blog/wp-content/cache/wpfc-minified/ept5gky0/2szu2.js' type="text/javascript"></script>
+<!-- <script type="text/javascript" src="https://www.devopsschool.com/blog/wp-content/plugins/simple-banner/simple-banner.js?ver=2.16.0" id="simple-banner-script-js"></script> -->
+<script type="text/javascript" id="__ytprefs__-js-extra">
+/* <![CDATA[ */
+var _EPYT_ = {"ajaxurl":"https:\/\/www.devopsschool.com\/blog\/wp-admin\/admin-ajax.php","security":"d1060be4fc","gallery_scrolloffset":"20","eppathtoscripts":"https:\/\/www.devopsschool.com\/blog\/wp-content\/plugins\/youtube-embed-plus\/scripts\/","eppath":"https:\/\/www.devopsschool.com\/blog\/wp-content\/plugins\/youtube-embed-plus\/","epresponsiveselector":"[\"iframe.__youtube_prefs_widget__\"]","epdovol":"1","version":"14.2","evselector":"iframe.__youtube_prefs__[src], iframe[src*=\"youtube.com\/embed\/\"], iframe[src*=\"youtube-nocookie.com\/embed\/\"]","ajax_compat":"","maxres_facade":"eager","ytapi_load":"light","pause_others":"","stopMobileBuffer":"1","facade_mode":"","not_live_on_channel":"","vi_active":"","vi_js_posttypes":[]};
+/* ]]> */
+</script>
+<script src='//www.devopsschool.com/blog/wp-content/cache/wpfc-minified/lx7wreei/2szu2.js' type="text/javascript"></script>
+<!-- <script type="text/javascript" src="https://www.devopsschool.com/blog/wp-content/plugins/youtube-embed-plus/scripts/ytprefs.min.js?ver=14.2" id="__ytprefs__-js"></script> -->
+<link rel="https://api.w.org/" href="https://www.devopsschool.com/blog/wp-json/" /><link rel="alternate" type="application/json" href="https://www.devopsschool.com/blog/wp-json/wp/v2/posts/27714" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.devopsschool.com/blog/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.4.1" />
+<link rel='shortlink' href='https://www.devopsschool.com/blog/?p=27714' />
+<link rel="alternate" type="application/json+oembed" href="https://www.devopsschool.com/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.devopsschool.com%2Fblog%2Fan-introduction-of-asp-net%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.devopsschool.com/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.devopsschool.com%2Fblog%2Fan-introduction-of-asp-net%2F&#038;format=xml" />
+<style type="text/css">.simple-banner .simple-banner-text{font-size:20px;}</style><style type="text/css">.simple-banner{background: #024985;}</style><style type="text/css">.simple-banner .simple-banner-text{color: #ffffff;}</style><style type="text/css">.simple-banner .simple-banner-text a{color:#f16521;}</style><style type="text/css">.simple-banner{z-index: 99999;}</style><style id="simple-banner-site-custom-css-dummy" type="text/css"></style><script id="simple-banner-site-custom-js-dummy" type="text/javascript"></script>
+<!-- StarBox - the Author Box for Humans 3.4.7, visit: http://wordpress.org/plugins/starbox/ -->
+<meta property="article:author" content="http://facebook.com/rajeshkumarin" />
+<!-- /StarBox - the Author Box for Humans -->
+<!-- <link rel='stylesheet' id='ABHfrontend.min.css-css' href='https://www.devopsschool.com/blog/wp-content/plugins/starbox/themes/fancy/css/frontend.min.css?ver=3.4.7' type='text/css' media='all' /> -->
+<script src='//www.devopsschool.com/blog/wp-content/cache/wpfc-minified/1g0tu2rq/2szu2.js' type="text/javascript"></script>
+<!-- <script type="text/javascript" src="https://www.devopsschool.com/blog/wp-content/plugins/starbox/themes/fancy/js/frontend.min.js?ver=3.4.7" id="ABHfrontend.min.js-js"></script> -->
+<!-- <link rel='stylesheet' id='ABHhidedefault.min.css-css' href='https://www.devopsschool.com/blog/wp-content/plugins/starbox/themes/admin/css/hidedefault.min.css?ver=3.4.7' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//www.devopsschool.com/blog/wp-content/cache/wpfc-minified/l23cbsd5/2szu2.css" media="all"/>
+<style type="text/css" media="all">
+body,
+input,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="password"],
+textarea,
+table,
+.sidebar .widget_ad .widget-title,
+.site-footer .widget_ad .widget-title {
+font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#secondary-menu li a,
+.footer-nav li a,
+.pagination .page-numbers,
+button,
+.btn,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.comment-form label,
+label,
+h1,h2,h3,h4,h5,h6 {
+font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a:hover,
+.site-header .search-icon:hover span,
+.sf-menu li a:hover,
+.sf-menu li li a:hover,
+.sf-menu li.sfHover a,
+.sf-menu li.current-menu-item a,
+.sf-menu li.current-menu-item a:hover,
+.breadcrumbs .breadcrumbs-nav a:hover,
+.read-more a,
+.read-more a:visited,
+.entry-title a:hover,
+article.hentry .edit-link a,
+.author-box a,
+.page-content a,
+.entry-content a,
+.comment-author a,
+.comment-content a,
+.comment-reply-title small a:hover,
+.sidebar .widget a,
+.sidebar .widget ul li a:hover {
+color: #2baae1;
+}
+button,
+.btn,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.entry-category a,
+.pagination .prev:hover,
+.pagination .next:hover,
+#back-top a span {
+background-color: #2baae1;
+}
+.read-more a:hover,
+.author-box a:hover,
+.page-content a:hover,
+.entry-content a:hover,
+.widget_tag_cloud .tagcloud a:hover:before,
+.entry-tags .tag-links a:hover:before,
+.content-loop .entry-title a:hover,
+.content-list .entry-title a:hover,
+.content-grid .entry-title a:hover,
+article.hentry .edit-link a:hover,
+.site-footer .widget ul li a:hover,
+.comment-content a:hover {
+color: #ff6644;
+}	
+#back-top a:hover span,
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus,
+.pagination .page-numbers:hover,
+.pagination .page-numbers.current,
+.sidebar .widget ul li:before,
+.widget_newsletter input[type="submit"],
+.widget_newsletter input[type="button"],
+.widget_newsletter button {
+background-color: #ff6644;
+}
+.slicknav_nav,
+.header-search,
+.sf-menu li a:before {
+border-color: #ff6644;
+}
+</style>
+</head>
+<body class="post-template-default single single-post postid-27714 single-format-standard group-blog">
+<div id="page" class="site">
+<header id="masthead" class="site-header clear">
+<div class="container">
+<div class="site-branding">
+<div id="logo">
+<span class="helper"></span>
+<a href="https://www.devopsschool.com/blog/" rel="home">
+<img src="https://www.devopsschool.com/blog/wp-content/uploads/2022/02/devopsschool-logo-e1565259350689.png" alt=""/>
+</a>
+</div><!-- #logo -->
+</div><!-- .site-branding -->		
+<nav id="primary-nav" class="primary-navigation">
+<div class="menu-courses-container"><ul id="primary-menu" class="sf-menu"><li id="menu-item-5094" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5094"><a href="/certification">Top Certifications</a></li>
+<li id="menu-item-5099" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5099"><a target="_blank" rel="noopener" href="https://www.devopsschool.com/instructor/index.html">Become an Instructor</a></li>
+<li id="menu-item-6328" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6328"><a target="_blank" rel="noopener" href="https://www.devopsschool.com/courses/">Courses</a></li>
+<li id="menu-item-12468" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12468"><a href="https://www.youtube.com/TheDevOpsSchool">Free Videos Tutorials</a></li>
+</ul></div>
+</nav><!-- #primary-nav -->
+<div id="slick-mobile-menu"></div>
+<span class="search-icon">
+<span class="genericon genericon-search"></span>
+<span class="genericon genericon-close"></span>			
+</span>
+<div class="header-search">
+<form id="searchform" method="get" action="https://www.devopsschool.com/blog/">
+<input type="search" name="s" class="search-input" placeholder="Search for..." autocomplete="off">
+<button type="submit" class="search-submit">Search</button>		
+</form>
+</div><!-- .header-search -->
+</div><!-- .container -->
+</header><!-- #masthead -->	
+<div id="content" class="site-content container clear">
+<div id="primary" class="content-area">
+<!-- header youtube banner -->
+<!--	<a href="https://www.devopsschool.com/certification/" target="_blank"><img src="https://www.devopsschool.com/assets/images/banner/ad-master-in-devops-enginee.png" width="1200px;"></a>
+-->
+<!-- header youtube banner end -->
+<main id="main" class="site-main" >
+<article id="post-27714" class="post-27714 post type-post status-publish format-standard hentry category-uncategorised">
+<header class="entry-header">	
+<div class="entry-category">
+<a href="https://www.devopsschool.com/blog/category/uncategorised/" title="View all posts in Uncategorised" >Uncategorised</a> 		</div>
+<h1 class="entry-title">An introduction of ASP.NET </h1>
+<div class="entry-meta">
+<span class="entry-author"><a href="https://www.devopsschool.com/blog/author/rajeshkumar/" title="Posts by Rajesh Kumar" rel="author">Rajesh Kumar</a></span> 
+<span class="entry-date">February 25, 2022</span>
+<span class="entry-comment"><a href="https://www.devopsschool.com/blog/an-introduction-of-asp-net/#respond" class="comments-link" >Leave a Comment</a></span>
+</div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+<div class="entry-content">
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="576" src="https://www.devopsschool.com/blog/wp-content/uploads/2022/02/asp.net-logo-1024x576.jpg" alt="" class="wp-image-27716" srcset="https://www.devopsschool.com/blog/wp-content/uploads/2022/02/asp.net-logo-1024x576.jpg 1024w, https://www.devopsschool.com/blog/wp-content/uploads/2022/02/asp.net-logo-300x169.jpg 300w, https://www.devopsschool.com/blog/wp-content/uploads/2022/02/asp.net-logo-768x432.jpg 768w, https://www.devopsschool.com/blog/wp-content/uploads/2022/02/asp.net-logo-355x199.jpg 355w, https://www.devopsschool.com/blog/wp-content/uploads/2022/02/asp.net-logo.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<p>What is ASP.NET ?</p>
+<p>It is a web framework designed and developed by Microsoft. It is used to develop websites, web applications and web services. It provides fantastic integration of HTML, CSS and JavaScript. It was first released in January 2002. It is built on the Common Language Runtime (CLR) and allows programmers to write code using any supported .NET language.</p>
+<p>ASP.NET works on top of the HTTP protocol, and uses the HTTP commands and policies to set a browser-to-server bilateral communication and cooperation.</p>
+<p>&nbsp;ASP.NET applications are compiled codes, written using the extensible and reusable components or objects present in .Net framework. These codes can use the entire hierarchy of classes in .Net framework.</p>
+<p>The ASP.NET application codes can be written in any of the following languages:</p>
+<ul><li>C#</li><li>Visual Basic.Net</li><li>Jscript</li><li>J#</li></ul>
+<p>ASP.NET is used to produce interactive, data-driven web applications over the internet. It consists of a large number of controls such as text boxes, buttons, and labels for assembling, configuring, and manipulating code to create HTML pages.</p>
+<p></p>
+<div id="ez-toc-container" class="ez-toc-v2_0_59 counter-hierarchy ez-toc-counter ez-toc-grey ez-toc-container-direction">
+<div class="ez-toc-title-container">
+<p class="ez-toc-title " >Table of Contents</p>
+<span class="ez-toc-title-toggle"><a href="#" class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle" aria-label="Toggle Table of Content" role="button"><label for="item-657033c59fbb9" ><span class=""><span class="eztoc-hide" style="display:none;">Toggle</span><span class="ez-toc-icon-toggle-span"><svg style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg" class="list-377408" width="20px" height="20px" viewBox="0 0 24 24" fill="none"><path d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z" fill="currentColor"></path></svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013" xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 24 24" version="1.2" baseProfile="tiny"><path d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z"/></svg></span></span></label><input aria-label="Toggle" aria-label="item-657033c59fbb9"  type="checkbox" id="item-657033c59fbb9"></a></span></div>
+<nav><ul class='ez-toc-list ez-toc-list-level-1 ' ><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-1" href="#Understanding_ASPNET" title="Understanding&nbsp;ASP.NET">Understanding&nbsp;ASP.NET</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-2" href="#The_ASPNET_Component_Model" title="The ASP.NET Component Model">The ASP.NET Component Model</a><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-3" href="#Working_of_ASPNET" title="Working of&nbsp;ASP.NET">Working of&nbsp;ASP.NET</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-4" href="#Advantages_of_ASPNET" title="Advantages of&nbsp;ASP.NET">Advantages of&nbsp;ASP.NET</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-5" href="#Conclusion" title="Conclusion">Conclusion</a></li></ul></li></ul></nav></div>
+<h3 class="wp-block-heading" id="understanding-asp-net"><span class="ez-toc-section" id="Understanding_ASPNET"></span>Understanding&nbsp;ASP.NET<span class="ez-toc-section-end"></span></h3>
+<ul><li>ASP.NET executes a web page using the&nbsp;<a href="https://www.educba.com/advantages-of-oop/">object-oriented programming approach</a>. Every element in asp.net is an object which runs on the server. A .NET Common Language Runtime-compliant compiler compiles a .NET web page into an intermediate language, then a JIT compiler converts the intermediate code to native machine code, and this machine code is eventually run on the processor.</li><li>For an ASP.net developer, it’s very important to understand the<a href="https://www.educba.com/asp-dot-net-page-life-cycle/">&nbsp;ASP.NET page life cycle</a>&nbsp;and ASP.NET application life cycle. It’s very much important to know how the request is being processed using IIS and how the web page is being processed and getting served to the user.</li><li>As a developer needs to buy expensive software (called Integrated Development Environments, or IDEs) in order to build an application, Development &amp; software cost is much important factors to consider when making a website or web application. Not only this, ASP.NET applications can be accessed with all of the popular databases, MySQL, MariaDB, Postgres, Microsoft SQL Server, CouchDB, and MongoDB. Low cost, High Speed, and vast language support are among the most significant benefits of using Asp.NET.</li></ul>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe  id="_ytid_20527"  width="760" height="427"  data-origwidth="760" data-origheight="427" src="https://www.youtube.com/embed/Q9C5FvhYy_U?enablejsapi=1&#038;autoplay=0&#038;cc_load_policy=0&#038;cc_lang_pref=&#038;iv_load_policy=1&#038;loop=0&#038;modestbranding=0&#038;rel=1&#038;fs=1&#038;playsinline=0&#038;autohide=2&#038;theme=dark&#038;color=red&#038;controls=1&#038;" class="__youtube_prefs__  epyt-is-override  no-lazyload" title="YouTube player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-no-lazy="1" data-skipgform_ajax_framebjll=""></iframe>
+</div></figure>
+<h2 class="wp-block-heading" id="the-asp-net-component-model"><span class="ez-toc-section" id="The_ASPNET_Component_Model"></span>The ASP.NET Component Model<span class="ez-toc-section-end"></span></h2>
+<p>The ASP.NET component model provides various building blocks of ASP.NET pages. Basically it is an object model, which describes:</p>
+<ul><li>Server side counterparts of almost all HTML elements or tags, such as &lt;form&gt; and &lt;input&gt;.</li><li>Server controls, which help in developing complex user-interface. For example, the Calendar control or the Gridview control.</li></ul>
+<p>ASP.NET is a technology, which works on the .Net framework that contains all web-related functionalities. The .Net framework is made of an object-oriented hierarchy. An ASP.NET web application is made of pages. When a user requests an ASP.NET page, the IIS delegates the processing of the page to the ASP.NET runtime system.</p>
+<p>The ASP.NET runtime transforms the .aspx page into an instance of a class, which inherits from the base class page of the .Net framework. Therefore, each ASP.NET page is an object and all its components i.e., the server-side controls are also objects.</p>
+<p></p>
+<h3 class="wp-block-heading" id="working-of-asp-net"><span class="ez-toc-section" id="Working_of_ASPNET"></span>Working of&nbsp;ASP.NET<span class="ez-toc-section-end"></span></h3>
+<p>ASP.NET-Workflow can be explained using the following diagram with a detailed explanation.</p>
+<figure class="wp-block-image"><img decoding="async" src="https://cdn.educba.com/academy/wp-content/uploads/2019/03/What-is-ASP.NET-1.gif" alt="ASP.NET-Workflow" class="wp-image-152023" /></figure>
+<ol><li>Through an URL, a request is sent for an asp.net file by a web browser to the webserver.</li><li>As a process, the request is received by the asp.net web server, i.e. IIS, which in return gives the appropriate file from memory.</li><li>Now for processing of the asp.net file, it is redirected to the asp.net script engine for the further task by the webserver.</li><li>The script engine runs the server-side script it encounters from top to bottom of the file.</li><li>After the script engine completes the server-side scripting, it sends an html page to the webserver.</li><li>It is explained through the model given below.</li></ol>
+<figure class="wp-block-image"><img decoding="async" src="https://cdn.educba.com/academy/wp-content/uploads/2019/03/What-is-ASP.NET-2.gif" alt="ASP.NET-Workflow Model" class="wp-image-152024" /></figure>
+<h3 class="wp-block-heading" id="advantages-of-asp-net"><span class="ez-toc-section" id="Advantages_of_ASPNET"></span>Advantages of&nbsp;ASP.NET<span class="ez-toc-section-end"></span></h3>
+<p>Some biggest advantages of using asp.net are :</p>
+<ul><li>Coding time is much less in asp.net framework technology.</li><li>It performs better out of the box.</li><li>Applications built in the asp.net framework are too secure.</li><li>Visual Studio, a framework for asp.net, has a complimentary design and rich toolbox.</li><li>ASP.NET provides continuous monitoring.</li><li>With asp.net, deployment is easier than ever.</li><li>It’s easier to write and maintain pages.</li><li>ASP.NET runtime closely manages and monitors all processes.</li></ul>
+<h3 class="wp-block-heading" id="conclusion"><span class="ez-toc-section" id="Conclusion"></span>Conclusion<span class="ez-toc-section-end"></span></h3>
+<p>ASP.NET makes the internet as a software platform much easier to manage web programming. Asp.net technology gives us full freedom to control our development and can be used anywhere, whether it is a small or big project. As it is managed by Microsoft, it can never be yesterday’s technology as Microsoft has invested a lot in its development and community. So as a whole, we can say ASP.NET will undoubtedly be the tool of choice for most Web developers for the next five years.</p>
+<div class="abh_box abh_box_down abh_box_fancy"><ul class="abh_tabs"> <li class="abh_about abh_active"><a href="#abh_about">Author</a></li> <li class="abh_posts"><a href="#abh_posts">Recent Posts</a></li></ul><div class="abh_tab_content"><section class="vcard author abh_about_tab abh_tab" itemscope itemprop="author" itemtype="http://schema.org/Person" style="display:block"><div class="abh_image" itemscope itemtype="http://schema.org/ImageObject"><a href = "http://www.RajeshKumar.xyz" class="url" target = "_blank" title = "Rajesh Kumar" rel="nofollow noopener noreferrer" > <img decoding="async" src="https://www.devopsschool.com/blog/wp-content/uploads/gravatar/rajeshkumar.jpg" class="photo" width="250" alt="Rajesh Kumar" /></a > </div><div class="abh_social"> <div style="clear: both; font-size:12px; font-weight:normal; width: 85px; margin: 0 0 2px auto; line-height: 20px;">Follow me</div><a itemprop="sameAs" href="http://facebook.com/rajeshkumarin" title="Facebook" class="abh_facebook" target="_blank" rel="nofollow noopener noreferrer"></a><a itemprop="sameAs" href="http://twitter.com/rajeshkumarin" title="Twitter" class="abh_twitter" target="_blank" rel="nofollow noopener noreferrer"></a></div><div class="abh_text"><div class="abh_name fn name" itemprop="name" ><a href="http://www.RajeshKumar.xyz" class="url" target="_blank" rel="nofollow noopener noreferrer">Rajesh Kumar</a></div><div class="abh_job" ><span class="title" >Mentor for DevOps - DevSecOps - SRE - Cloud - Container & Micorservices</span> at <span class="org" ><a href="https://www.softwareag.com/" target="_blank">Software AG</a></span></div><div class="description note abh_description" itemprop="description" >Join my following certification courses...<br />- DevOps Certified Professionals (DCP)<br />- Site Reliability Engineering Certified Professionals (SRECP)<br />- Master in DevOps Engineering (MDE)<br />- DevSecOps Certified Professionals (DSOCP)<br />URL - https://www.devopsschool.com/certification/<br /><br />My Linkedin - https://www.linkedin.com/in/rajeshkumarin</div></div> </section><section class="abh_posts_tab abh_tab" ><div class="abh_image"><a href="http://www.RajeshKumar.xyz" class="url" target="_blank" title="Rajesh Kumar" rel="nofollow noopener noreferrer"><img decoding="async" src="https://www.devopsschool.com/blog/wp-content/uploads/gravatar/rajeshkumar.jpg" class="photo" width="250" alt="Rajesh Kumar" /></a></div><div class="abh_social"> <div style="clear: both; font-size:12px; font-weight:normal; width: 85px; margin: 0 0 2px auto; line-height: 20px;">Follow me</div><ahref="http://facebook.com/rajeshkumarin" title="Facebook" class="abh_facebook" target="_blank" rel="nofollow noopener noreferrer"></a><ahref="http://twitter.com/rajeshkumarin" title="Twitter" class="abh_twitter" target="_blank" rel="nofollow noopener noreferrer"></a></div><div class="abh_text"><div class="abh_name" >Latest posts by Rajesh Kumar <span class="abh_allposts">(<a href="https://www.devopsschool.com/blog/author/rajeshkumar/">see all</a>)</span></div><div class="abh_description note" ><ul>				<li>					<a href="https://www.devopsschool.com/blog/aws-tutorials-working-with-code-commit/">AWS Tutorials: Working with Code Commit</a><span> - December 6, 2023</span>				</li>				<li>					<a href="https://www.devopsschool.com/blog/strace-command-increase-cpu-load/">Strace Command: Increase CPU load</a><span> - December 6, 2023</span>				</li>				<li>					<a href="https://www.devopsschool.com/blog/aws-tutorials-auto-scaling-group/">AWS Tutorials: Auto Scaling Group</a><span> - December 6, 2023</span>				</li></ul></div></div> </section></div> </div>	</div><!-- .entry-content -->
+<div class="entry-tags">
+</div><!-- .entry-tags -->
+</article><!-- #post-## -->
+<div class="wpdiscuz_top_clearing"></div>
+<div id='comments' class='comments-area'><div id='respond' style='width: 0;height: 0;clear: both;margin: 0;padding: 0;'></div>    <div id="wpdcom" class="wpdiscuz_unauth wpd-default wpd-layout-1 wpd-comments-open">
+<div class="wc_social_plugin_wrapper">
+</div>
+<div class="wpd-form-wrap">
+<div class="wpd-form-head">
+<div class="wpd-sbs-toggle">
+<i class="far fa-envelope"></i> <span
+class="wpd-sbs-title">Subscribe</span>
+<i class="fas fa-caret-down"></i>
+</div>
+<div class="wpd-auth">
+<div class="wpd-login">
+<a rel="nofollow" href="https://www.devopsschool.com/blog/wp-login.php?redirect_to=https%3A%2F%2Fwww.devopsschool.com%2Fblog%2Fan-introduction-of-asp-net%2F"><i class='fas fa-sign-in-alt'></i> Login</a>                        </div>
+</div>
+</div>
+<div class="wpdiscuz-subscribe-bar wpdiscuz-hidden">
+<form action="https://www.devopsschool.com/blog/wp-admin/admin-ajax.php?action=wpdAddSubscription"
+method="post" id="wpdiscuz-subscribe-form">
+<div class="wpdiscuz-subscribe-form-intro">Notify of </div>
+<div class="wpdiscuz-subscribe-form-option"
+style="width:40%;">
+<select class="wpdiscuz_select" name="wpdiscuzSubscriptionType">
+<option value="post">new follow-up comments</option>
+<option value="all_comment" disabled>new replies to my comments</option>
+</select>
+</div>
+<div class="wpdiscuz-item wpdiscuz-subscribe-form-email">
+<input class="email" type="email" name="wpdiscuzSubscriptionEmail"
+required="required" value=""
+placeholder="Email"/>
+</div>
+<div class="wpdiscuz-subscribe-form-button">
+<input id="wpdiscuz_subscription_button" class="wpd-prim-button wpd_not_clicked"
+type="submit"
+value="&rsaquo;"
+name="wpdiscuz_subscription_button"/>
+</div>
+<input type="hidden" id="wpdiscuz_subscribe_form_nonce" name="wpdiscuz_subscribe_form_nonce" value="70f86d4e52" /><input type="hidden" name="_wp_http_referer" value="/blog/an-introduction-of-asp-net/" />                <div class="wpd-field-captcha wpdiscuz-item">
+<div class="wpdiscuz-recaptcha" id='wpdiscuz-recaptcha-subscribe-form'></div>
+<input id='wpdiscuz-recaptcha-field-subscribe-form' type='hidden' name='wpdiscuz_recaptcha_subscribe_form' value="" required="required" aria-required='true' class="wpdiscuz_reset"/>
+<div class="clearfix"></div>
+</div>
+</form>
+</div>
+<div class="wpd-form wpd-form-wrapper wpd-main-form-wrapper" id='wpd-main-form-wrapper-0_0'>
+<form  method="post" enctype="multipart/form-data" data-uploading="false" class="wpd_comm_form wpd_main_comm_form"                    >
+<div class="wpd-field-comment">
+<div class="wpdiscuz-item wc-field-textarea">
+<div class="wpdiscuz-textarea-wrap ">
+<div class="wpd-avatar">
+<img alt='guest' src='https://secure.gravatar.com/avatar/567400b79f46a3380ad8af309a4e7115?s=56&#038;r=g' srcset='https://secure.gravatar.com/avatar/567400b79f46a3380ad8af309a4e7115?s=112&#038;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' loading='lazy' decoding='async'/>                                    </div>
+<div id="wpd-editor-wraper-0_0" style="display: none;">
+<div id="wpd-editor-char-counter-0_0"
+class="wpd-editor-char-counter"></div>
+<label style="display: none;" for="wc-textarea-0_0">Label</label>
+<textarea id="wc-textarea-0_0" name="wc_comment"
+class="wc_comment wpd-field"></textarea>
+<div id="wpd-editor-0_0"></div>
+<div id="wpd-editor-toolbar-0_0">
+<button title="Bold"
+class="ql-bold"  ></button>
+<button title="Italic"
+class="ql-italic"  ></button>
+<button title="Underline"
+class="ql-underline"  ></button>
+<button title="Strike"
+class="ql-strike"  ></button>
+<button title="Ordered List"
+class="ql-list" value='ordered' ></button>
+<button title="Unordered List"
+class="ql-list" value='bullet' ></button>
+<button title="Blockquote"
+class="ql-blockquote"  ></button>
+<button title="Code Block"
+class="ql-code-block"  ></button>
+<button title="Link"
+class="ql-link"  ></button>
+<button title="Source Code"
+class="ql-sourcecode"  data-wpde_button_name='sourcecode'>{}</button>
+<button title="Spoiler"
+class="ql-spoiler"  data-wpde_button_name='spoiler'>[+]</button>
+<div class="wpd-editor-buttons-right">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpd-form-foot" style='display:none;'>
+<div class="wpdiscuz-textarea-foot">
+<div class="wpdiscuz-button-actions"></div>
+</div>
+<div class="wpd-form-row">
+<div class="wpd-form-col-left">
+<div class="wpdiscuz-item wc_name-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-user"></i></div>
+<input id="wc_name-0_0" value="" required='required' aria-required='true' class="wc_name wpd-field" type="text" name="wc_name" placeholder="Name*" maxlength="50" pattern='.{3,50}' title="">
+<label for="wc_name-0_0" class="wpdlb">Name*</label>
+</div>
+<div class="wpdiscuz-item wc_email-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-at"></i></div>
+<input id="wc_email-0_0" value="" required='required' aria-required='true' class="wc_email wpd-field" type="email" name="wc_email" placeholder="Email*" />
+<label for="wc_email-0_0" class="wpdlb">Email*</label>
+</div>
+</div>
+<div class="wpd-form-col-right">
+<div class="wpd-field-captcha wpdiscuz-item">
+<div class="wpdiscuz-recaptcha" id='wpdiscuz-recaptcha-0_0'></div>
+<input id='wpdiscuz-recaptcha-field-0_0' type='hidden' name='wc_captcha' value="" required="required" aria-required='true' class="wpdiscuz_reset"/>
+<div class="clearfix"></div>
+</div>
+<div class="wc-field-submit">
+<input id="wpd-field-submit-0_0"
+class="wc_comm_submit wpd_not_clicked wpd-prim-button" type="submit"
+name="submit" value="Post Comment"
+aria-label="Post Comment"/>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<input type="hidden" class="wpdiscuz_unique_id" value="0_0"
+name="wpdiscuz_unique_id">
+</form>
+</div>
+<div id="wpdiscuz_hidden_secondary_form" style="display: none;">
+<div class="wpd-form wpd-form-wrapper wpd-secondary-form-wrapper" id='wpd-secondary-form-wrapper-wpdiscuzuniqueid' style='display: none;'>
+<div class="wpd-secondary-forms-social-content"></div>
+<div class="clearfix"></div>
+<form  method="post" enctype="multipart/form-data" data-uploading="false" class="wpd_comm_form wpd-secondary-form-wrapper"                    >
+<div class="wpd-field-comment">
+<div class="wpdiscuz-item wc-field-textarea">
+<div class="wpdiscuz-textarea-wrap ">
+<div class="wpd-avatar">
+<img alt='guest' src='https://secure.gravatar.com/avatar/1840528e1221962f33f1ee0769988542?s=56&#038;r=g' srcset='https://secure.gravatar.com/avatar/1840528e1221962f33f1ee0769988542?s=112&#038;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' loading='lazy' decoding='async'/>                                    </div>
+<div id="wpd-editor-wraper-wpdiscuzuniqueid" style="display: none;">
+<div id="wpd-editor-char-counter-wpdiscuzuniqueid"
+class="wpd-editor-char-counter"></div>
+<label style="display: none;" for="wc-textarea-wpdiscuzuniqueid">Label</label>
+<textarea id="wc-textarea-wpdiscuzuniqueid" name="wc_comment"
+class="wc_comment wpd-field"></textarea>
+<div id="wpd-editor-wpdiscuzuniqueid"></div>
+<div id="wpd-editor-toolbar-wpdiscuzuniqueid">
+<button title="Bold"
+class="ql-bold"  ></button>
+<button title="Italic"
+class="ql-italic"  ></button>
+<button title="Underline"
+class="ql-underline"  ></button>
+<button title="Strike"
+class="ql-strike"  ></button>
+<button title="Ordered List"
+class="ql-list" value='ordered' ></button>
+<button title="Unordered List"
+class="ql-list" value='bullet' ></button>
+<button title="Blockquote"
+class="ql-blockquote"  ></button>
+<button title="Code Block"
+class="ql-code-block"  ></button>
+<button title="Link"
+class="ql-link"  ></button>
+<button title="Source Code"
+class="ql-sourcecode"  data-wpde_button_name='sourcecode'>{}</button>
+<button title="Spoiler"
+class="ql-spoiler"  data-wpde_button_name='spoiler'>[+]</button>
+<div class="wpd-editor-buttons-right">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpd-form-foot" style='display:none;'>
+<div class="wpdiscuz-textarea-foot">
+<div class="wpdiscuz-button-actions"></div>
+</div>
+<div class="wpd-form-row">
+<div class="wpd-form-col-left">
+<div class="wpdiscuz-item wc_name-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-user"></i></div>
+<input id="wc_name-wpdiscuzuniqueid" value="" required='required' aria-required='true' class="wc_name wpd-field" type="text" name="wc_name" placeholder="Name*" maxlength="50" pattern='.{3,50}' title="">
+<label for="wc_name-wpdiscuzuniqueid" class="wpdlb">Name*</label>
+</div>
+<div class="wpdiscuz-item wc_email-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-at"></i></div>
+<input id="wc_email-wpdiscuzuniqueid" value="" required='required' aria-required='true' class="wc_email wpd-field" type="email" name="wc_email" placeholder="Email*" />
+<label for="wc_email-wpdiscuzuniqueid" class="wpdlb">Email*</label>
+</div>
+</div>
+<div class="wpd-form-col-right">
+<div class="wpd-field-captcha wpdiscuz-item">
+<div class="wpdiscuz-recaptcha" id='wpdiscuz-recaptcha-wpdiscuzuniqueid'></div>
+<input id='wpdiscuz-recaptcha-field-wpdiscuzuniqueid' type='hidden' name='wc_captcha' value="" required="required" aria-required='true' class="wpdiscuz_reset"/>
+<div class="clearfix"></div>
+</div>
+<div class="wc-field-submit">
+<input id="wpd-field-submit-wpdiscuzuniqueid"
+class="wc_comm_submit wpd_not_clicked wpd-prim-button" type="submit"
+name="submit" value="Post Comment"
+aria-label="Post Comment"/>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<input type="hidden" class="wpdiscuz_unique_id" value="wpdiscuzuniqueid"
+name="wpdiscuz_unique_id">
+</form>
+</div>
+</div>
+</div>
+<div id="wpd-threads" class="wpd-thread-wrapper">
+<div class="wpd-thread-head">
+<div class="wpd-thread-info "
+data-comments-count="0">
+<span class='wpdtc' title='0'>0</span> Comments                    </div>
+<div class="wpd-space"></div>
+<div class="wpd-thread-filter">
+<div class="wpd-filter wpdf-reacted wpd_not_clicked"
+wpd-tooltip="Most reacted comment">
+<i class="fas fa-bolt"></i></div>
+<div class="wpd-filter wpdf-hottest wpd_not_clicked"
+wpd-tooltip="Hottest comment thread">
+<i class="fas fa-fire"></i></div>
+</div>
+</div>
+<div class="wpd-comment-info-bar">
+<div class="wpd-current-view"><i
+class="fas fa-quote-left"></i> Inline Feedbacks                    </div>
+<div class="wpd-filter-view-all">View all comments</div>
+</div>
+<div class="wpd-thread-list">
+<!-- // From wpDiscuz's Caches // -->                    <div class="wpdiscuz-comment-pagination">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wpdiscuz-loading-bar"
+class="wpdiscuz-loading-bar-unauth"></div>
+<div id="wpdiscuz-comment-message"
+class="wpdiscuz-comment-message-unauth"></div>
+</main><!-- #main -->
+<!-- header youtube banner -->
+<a href="https://www.devopsschool.com/certification/" target="_blank"><img src="https://www.devopsschool.com/assets/images/banner/agileqa-agiledev-sre-devsec.png" width="1200px;" height="120px;"></a>
+<!-- header youtube banner end  -->
+</div><!-- #primary -->
+<aside id="secondary" class="widget-area sidebar">
+<div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://www.devopsschool.com/blog/">
+<label>
+<span class="screen-reader-text">Search for:</span>
+<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+</label>
+<input type="submit" class="search-submit" value="Search" />
+</form></div><div id="block-20" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><a href="https://www.devopsschool.com/contact/"><img loading="lazy" decoding="async" width="628" height="517" src="https://www.devopsschool.com/blog/wp-content/uploads/2023/11/ad-placeholder-1.png" alt="" class="wp-image-41261" srcset="https://www.devopsschool.com/blog/wp-content/uploads/2023/11/ad-placeholder-1.png 628w, https://www.devopsschool.com/blog/wp-content/uploads/2023/11/ad-placeholder-1-300x247.png 300w" sizes="(max-width: 628px) 100vw, 628px" /></a></figure>
+</div><div id="custom_html-5" class="widget_text widget widget_custom_html"><h2 class="widget-title">How to contact us?</h2><div class="textwidget custom-html-widget"><div style="text-align: center !important;">
+<section>
+<div style="border: 1px dashed blue;">
+<div style="background: #0D11A0; height:60px; padding-top: 5px; color:rgb(251, 255, 255);">
+<h3 style="color:aliceblue;">Need Assistance!!!</h3>
+</div>
+<div class="card-body bg-light">
+<h5><b>Feel Free To Contact Us</b></h5>
+<h6 class="mt-3"><i class="fa fa-phone fa-lg text-info ml-1 mr-2"></i><b class="text-primary">+1 (469) 756-6329</b></h6><h6 class="ml-5">(US Call-WhatsApp)</h6><hr>
+<h6 class="mt-3"><i class="fa fa-phone fa-lg text-info ml-1 mr-2"></i><b class="text-primary">+91 7004 215 841</b></h6><h6 class="ml-5">(India Call-WhatsApp)</h6><hr><h6 class="mt-3"><a target="_blank" href="https://api.whatsapp.com/send?phone=+91 7004215841&text=Hi%20There!" rel="noopener"><b class="text-primary"></b><img style="height:4em; width:13em;" src="https://www.devopsschool.com/assets/assets1/images/devopsschool-whatsapp-click-to-chat-1.png" alt=""></a></h6>
+</div>
+<div class="card-footer" style="background: #0D11A0 ; height: 90px; padding-top: 4px;">
+<h6 style="color:aliceblue;">Email us</h6>
+<h6 style="color:aliceblue;">Contact@DevOpsSchool.com</h6>
+</div>
+</div>
+</section>
+</div></div></div><div id="block-10" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><a href="https://www.devopsschool.com/certification/devops-certified-professional-dcp.html"><img loading="lazy" decoding="async" width="303" height="257" src="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/1-devops-certified-professionals-dcp.png" alt="" class="wp-image-35919" srcset="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/1-devops-certified-professionals-dcp.png 303w, https://www.devopsschool.com/blog/wp-content/uploads/2023/06/1-devops-certified-professionals-dcp-300x254.png 300w" sizes="(max-width: 303px) 100vw, 303px" /></a></figure>
+</div><div id="block-11" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><a href="https://www.devopsschool.com/certification/devsecops-certified-professional-dsocp.html"><img loading="lazy" decoding="async" width="303" height="257" src="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/2-devsecops-certified-professionals-dsocp.png" alt="" class="wp-image-35920" srcset="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/2-devsecops-certified-professionals-dsocp.png 303w, https://www.devopsschool.com/blog/wp-content/uploads/2023/06/2-devsecops-certified-professionals-dsocp-300x254.png 300w" sizes="(max-width: 303px) 100vw, 303px" /></a></figure>
+</div><div id="block-12" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><a href="https://www.devopsschool.com/certification/sre-certified-professional-srecp.html"><img loading="lazy" decoding="async" width="303" height="257" src="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/3-site-reliability-engineering-certified-professionals-srecp.png" alt="" class="wp-image-35921" srcset="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/3-site-reliability-engineering-certified-professionals-srecp.png 303w, https://www.devopsschool.com/blog/wp-content/uploads/2023/06/3-site-reliability-engineering-certified-professionals-srecp-300x254.png 300w" sizes="(max-width: 303px) 100vw, 303px" /></a></figure>
+</div><div id="block-13" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><a href="https://www.devopsschool.com/certification/master-in-devops-engineering.html"><img loading="lazy" decoding="async" width="303" height="257" src="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/4-master-in-devops-engineering-mde.png" alt="" class="wp-image-35922" srcset="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/4-master-in-devops-engineering-mde.png 303w, https://www.devopsschool.com/blog/wp-content/uploads/2023/06/4-master-in-devops-engineering-mde-300x254.png 300w" sizes="(max-width: 303px) 100vw, 303px" /></a></figure>
+</div><div id="block-14" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><a href="https://www.devopsschool.com/certification/kubernetes-certified-administrator-developer.html"><img loading="lazy" decoding="async" width="303" height="257" src="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/5-kubernetes-certified-administrator-developer-kcad.png" alt="" class="wp-image-35923" srcset="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/5-kubernetes-certified-administrator-developer-kcad.png 303w, https://www.devopsschool.com/blog/wp-content/uploads/2023/06/5-kubernetes-certified-administrator-developer-kcad-300x254.png 300w" sizes="(max-width: 303px) 100vw, 303px" /></a></figure>
+</div><div id="block-15" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><a href="https://www.devopsschool.com/certification/aiops-training-course.html"><img loading="lazy" decoding="async" width="303" height="257" src="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/6-aiops-certified-professional-aiocp.png" alt="" class="wp-image-35924" srcset="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/6-aiops-certified-professional-aiocp.png 303w, https://www.devopsschool.com/blog/wp-content/uploads/2023/06/6-aiops-certified-professional-aiocp-300x254.png 300w" sizes="(max-width: 303px) 100vw, 303px" /></a></figure>
+</div><div id="block-16" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><a href="https://www.devopsschool.com/certification/dataops-certified-professional.html"><img loading="lazy" decoding="async" width="303" height="257" src="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/7-dataops-certified-professional-docp.png" alt="" class="wp-image-35925" srcset="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/7-dataops-certified-professional-docp.png 303w, https://www.devopsschool.com/blog/wp-content/uploads/2023/06/7-dataops-certified-professional-docp-300x254.png 300w" sizes="(max-width: 303px) 100vw, 303px" /></a></figure>
+</div><div id="block-17" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><a href="https://www.devopsschool.com/certification/gitops-certified-professional.html"><img loading="lazy" decoding="async" width="303" height="257" src="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/8-gitops-certified-professional-gocp.png" alt="" class="wp-image-35926" srcset="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/8-gitops-certified-professional-gocp.png 303w, https://www.devopsschool.com/blog/wp-content/uploads/2023/06/8-gitops-certified-professional-gocp-300x254.png 300w" sizes="(max-width: 303px) 100vw, 303px" /></a></figure>
+</div><div id="block-18" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><a href="https://www.devopsschool.com/certification/mlops-certified-professional.html"><img loading="lazy" decoding="async" width="303" height="257" src="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/9-mlops-certified-professional-mlocp.png" alt="" class="wp-image-35927" srcset="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/9-mlops-certified-professional-mlocp.png 303w, https://www.devopsschool.com/blog/wp-content/uploads/2023/06/9-mlops-certified-professional-mlocp-300x254.png 300w" sizes="(max-width: 303px) 100vw, 303px" /></a></figure>
+</div><div id="block-19" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><a href="https://www.devopsschool.com/certification/master-observability-engineering.html"><img loading="lazy" decoding="async" width="303" height="257" src="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/10-master-in-observability-engineering-moe.png" alt="" class="wp-image-35928" srcset="https://www.devopsschool.com/blog/wp-content/uploads/2023/06/10-master-in-observability-engineering-moe.png 303w, https://www.devopsschool.com/blog/wp-content/uploads/2023/06/10-master-in-observability-engineering-moe-300x254.png 300w" sizes="(max-width: 303px) 100vw, 303px" /></a></figure>
+</div><div id="archives-2" class="widget widget_archive"><h2 class="widget-title">Archives</h2>		<label class="screen-reader-text" for="archives-dropdown-2">Archives</label>
+<select id="archives-dropdown-2" name="archive-dropdown">
+<option value="">Select Month</option>
+<option value='https://www.devopsschool.com/blog/2023/12/'> December 2023 &nbsp;(51)</option>
+<option value='https://www.devopsschool.com/blog/2023/11/'> November 2023 &nbsp;(46)</option>
+<option value='https://www.devopsschool.com/blog/2023/10/'> October 2023 &nbsp;(92)</option>
+<option value='https://www.devopsschool.com/blog/2023/09/'> September 2023 &nbsp;(233)</option>
+<option value='https://www.devopsschool.com/blog/2023/08/'> August 2023 &nbsp;(178)</option>
+<option value='https://www.devopsschool.com/blog/2023/07/'> July 2023 &nbsp;(174)</option>
+<option value='https://www.devopsschool.com/blog/2023/06/'> June 2023 &nbsp;(133)</option>
+<option value='https://www.devopsschool.com/blog/2023/05/'> May 2023 &nbsp;(606)</option>
+<option value='https://www.devopsschool.com/blog/2023/04/'> April 2023 &nbsp;(98)</option>
+<option value='https://www.devopsschool.com/blog/2023/03/'> March 2023 &nbsp;(40)</option>
+<option value='https://www.devopsschool.com/blog/2023/02/'> February 2023 &nbsp;(69)</option>
+<option value='https://www.devopsschool.com/blog/2023/01/'> January 2023 &nbsp;(26)</option>
+<option value='https://www.devopsschool.com/blog/2022/12/'> December 2022 &nbsp;(85)</option>
+<option value='https://www.devopsschool.com/blog/2022/11/'> November 2022 &nbsp;(72)</option>
+<option value='https://www.devopsschool.com/blog/2022/10/'> October 2022 &nbsp;(89)</option>
+<option value='https://www.devopsschool.com/blog/2022/09/'> September 2022 &nbsp;(68)</option>
+<option value='https://www.devopsschool.com/blog/2022/08/'> August 2022 &nbsp;(37)</option>
+<option value='https://www.devopsschool.com/blog/2022/07/'> July 2022 &nbsp;(83)</option>
+<option value='https://www.devopsschool.com/blog/2022/06/'> June 2022 &nbsp;(71)</option>
+<option value='https://www.devopsschool.com/blog/2022/05/'> May 2022 &nbsp;(43)</option>
+<option value='https://www.devopsschool.com/blog/2022/04/'> April 2022 &nbsp;(98)</option>
+<option value='https://www.devopsschool.com/blog/2022/03/'> March 2022 &nbsp;(179)</option>
+<option value='https://www.devopsschool.com/blog/2022/02/'> February 2022 &nbsp;(180)</option>
+<option value='https://www.devopsschool.com/blog/2022/01/'> January 2022 &nbsp;(16)</option>
+<option value='https://www.devopsschool.com/blog/2021/12/'> December 2021 &nbsp;(46)</option>
+<option value='https://www.devopsschool.com/blog/2021/11/'> November 2021 &nbsp;(8)</option>
+<option value='https://www.devopsschool.com/blog/2021/10/'> October 2021 &nbsp;(32)</option>
+<option value='https://www.devopsschool.com/blog/2021/09/'> September 2021 &nbsp;(50)</option>
+<option value='https://www.devopsschool.com/blog/2021/08/'> August 2021 &nbsp;(35)</option>
+<option value='https://www.devopsschool.com/blog/2021/07/'> July 2021 &nbsp;(108)</option>
+<option value='https://www.devopsschool.com/blog/2021/06/'> June 2021 &nbsp;(37)</option>
+<option value='https://www.devopsschool.com/blog/2021/05/'> May 2021 &nbsp;(44)</option>
+<option value='https://www.devopsschool.com/blog/2021/04/'> April 2021 &nbsp;(88)</option>
+<option value='https://www.devopsschool.com/blog/2021/03/'> March 2021 &nbsp;(33)</option>
+<option value='https://www.devopsschool.com/blog/2021/02/'> February 2021 &nbsp;(15)</option>
+<option value='https://www.devopsschool.com/blog/2021/01/'> January 2021 &nbsp;(10)</option>
+<option value='https://www.devopsschool.com/blog/2020/12/'> December 2020 &nbsp;(25)</option>
+<option value='https://www.devopsschool.com/blog/2020/11/'> November 2020 &nbsp;(49)</option>
+<option value='https://www.devopsschool.com/blog/2020/10/'> October 2020 &nbsp;(27)</option>
+<option value='https://www.devopsschool.com/blog/2020/09/'> September 2020 &nbsp;(93)</option>
+<option value='https://www.devopsschool.com/blog/2020/08/'> August 2020 &nbsp;(110)</option>
+<option value='https://www.devopsschool.com/blog/2020/07/'> July 2020 &nbsp;(87)</option>
+<option value='https://www.devopsschool.com/blog/2020/06/'> June 2020 &nbsp;(122)</option>
+<option value='https://www.devopsschool.com/blog/2020/05/'> May 2020 &nbsp;(56)</option>
+<option value='https://www.devopsschool.com/blog/2020/04/'> April 2020 &nbsp;(38)</option>
+<option value='https://www.devopsschool.com/blog/2020/03/'> March 2020 &nbsp;(56)</option>
+<option value='https://www.devopsschool.com/blog/2020/02/'> February 2020 &nbsp;(75)</option>
+<option value='https://www.devopsschool.com/blog/2020/01/'> January 2020 &nbsp;(270)</option>
+<option value='https://www.devopsschool.com/blog/2019/12/'> December 2019 &nbsp;(33)</option>
+<option value='https://www.devopsschool.com/blog/2019/11/'> November 2019 &nbsp;(35)</option>
+<option value='https://www.devopsschool.com/blog/2019/10/'> October 2019 &nbsp;(135)</option>
+<option value='https://www.devopsschool.com/blog/2019/09/'> September 2019 &nbsp;(35)</option>
+<option value='https://www.devopsschool.com/blog/2019/08/'> August 2019 &nbsp;(18)</option>
+<option value='https://www.devopsschool.com/blog/2019/07/'> July 2019 &nbsp;(47)</option>
+<option value='https://www.devopsschool.com/blog/2019/06/'> June 2019 &nbsp;(6)</option>
+<option value='https://www.devopsschool.com/blog/2019/04/'> April 2019 &nbsp;(2)</option>
+<option value='https://www.devopsschool.com/blog/2019/03/'> March 2019 &nbsp;(2)</option>
+<option value='https://www.devopsschool.com/blog/2019/02/'> February 2019 &nbsp;(18)</option>
+<option value='https://www.devopsschool.com/blog/2019/01/'> January 2019 &nbsp;(5)</option>
+<option value='https://www.devopsschool.com/blog/2018/12/'> December 2018 &nbsp;(3)</option>
+<option value='https://www.devopsschool.com/blog/2018/11/'> November 2018 &nbsp;(9)</option>
+<option value='https://www.devopsschool.com/blog/2018/10/'> October 2018 &nbsp;(16)</option>
+<option value='https://www.devopsschool.com/blog/2018/09/'> September 2018 &nbsp;(17)</option>
+<option value='https://www.devopsschool.com/blog/2018/08/'> August 2018 &nbsp;(22)</option>
+<option value='https://www.devopsschool.com/blog/2018/07/'> July 2018 &nbsp;(1)</option>
+<option value='https://www.devopsschool.com/blog/2018/06/'> June 2018 &nbsp;(4)</option>
+<option value='https://www.devopsschool.com/blog/2018/05/'> May 2018 &nbsp;(7)</option>
+<option value='https://www.devopsschool.com/blog/2018/04/'> April 2018 &nbsp;(13)</option>
+<option value='https://www.devopsschool.com/blog/2018/03/'> March 2018 &nbsp;(2)</option>
+<option value='https://www.devopsschool.com/blog/2018/02/'> February 2018 &nbsp;(1)</option>
+<option value='https://www.devopsschool.com/blog/2018/01/'> January 2018 &nbsp;(137)</option>
+<option value='https://www.devopsschool.com/blog/2017/12/'> December 2017 &nbsp;(825)</option>
+<option value='https://www.devopsschool.com/blog/2017/11/'> November 2017 &nbsp;(17)</option>
+<option value='https://www.devopsschool.com/blog/2017/08/'> August 2017 &nbsp;(1)</option>
+<option value='https://www.devopsschool.com/blog/2017/07/'> July 2017 &nbsp;(10)</option>
+<option value='https://www.devopsschool.com/blog/2017/05/'> May 2017 &nbsp;(2)</option>
+<option value='https://www.devopsschool.com/blog/2017/04/'> April 2017 &nbsp;(14)</option>
+<option value='https://www.devopsschool.com/blog/2017/03/'> March 2017 &nbsp;(10)</option>
+<option value='https://www.devopsschool.com/blog/2017/02/'> February 2017 &nbsp;(11)</option>
+<option value='https://www.devopsschool.com/blog/2017/01/'> January 2017 &nbsp;(4)</option>
+<option value='https://www.devopsschool.com/blog/2016/10/'> October 2016 &nbsp;(4)</option>
+<option value='https://www.devopsschool.com/blog/2016/08/'> August 2016 &nbsp;(4)</option>
+<option value='https://www.devopsschool.com/blog/2016/07/'> July 2016 &nbsp;(7)</option>
+<option value='https://www.devopsschool.com/blog/2016/06/'> June 2016 &nbsp;(1)</option>
+<option value='https://www.devopsschool.com/blog/2016/03/'> March 2016 &nbsp;(2)</option>
+<option value='https://www.devopsschool.com/blog/2016/02/'> February 2016 &nbsp;(3)</option>
+<option value='https://www.devopsschool.com/blog/2016/01/'> January 2016 &nbsp;(1)</option>
+<option value='https://www.devopsschool.com/blog/2015/12/'> December 2015 &nbsp;(4)</option>
+<option value='https://www.devopsschool.com/blog/2015/11/'> November 2015 &nbsp;(14)</option>
+<option value='https://www.devopsschool.com/blog/2015/10/'> October 2015 &nbsp;(18)</option>
+<option value='https://www.devopsschool.com/blog/2015/09/'> September 2015 &nbsp;(8)</option>
+<option value='https://www.devopsschool.com/blog/2015/08/'> August 2015 &nbsp;(11)</option>
+<option value='https://www.devopsschool.com/blog/2015/06/'> June 2015 &nbsp;(3)</option>
+<option value='https://www.devopsschool.com/blog/2015/05/'> May 2015 &nbsp;(3)</option>
+<option value='https://www.devopsschool.com/blog/2015/04/'> April 2015 &nbsp;(7)</option>
+<option value='https://www.devopsschool.com/blog/2015/03/'> March 2015 &nbsp;(1)</option>
+<option value='https://www.devopsschool.com/blog/2015/02/'> February 2015 &nbsp;(7)</option>
+<option value='https://www.devopsschool.com/blog/2015/01/'> January 2015 &nbsp;(1)</option>
+<option value='https://www.devopsschool.com/blog/2014/12/'> December 2014 &nbsp;(3)</option>
+<option value='https://www.devopsschool.com/blog/2014/11/'> November 2014 &nbsp;(2)</option>
+<option value='https://www.devopsschool.com/blog/2014/09/'> September 2014 &nbsp;(15)</option>
+<option value='https://www.devopsschool.com/blog/2014/08/'> August 2014 &nbsp;(8)</option>
+<option value='https://www.devopsschool.com/blog/2014/07/'> July 2014 &nbsp;(20)</option>
+<option value='https://www.devopsschool.com/blog/2014/05/'> May 2014 &nbsp;(1)</option>
+<option value='https://www.devopsschool.com/blog/2014/02/'> February 2014 &nbsp;(4)</option>
+<option value='https://www.devopsschool.com/blog/2013/09/'> September 2013 &nbsp;(3)</option>
+<option value='https://www.devopsschool.com/blog/2013/06/'> June 2013 &nbsp;(1)</option>
+<option value='https://www.devopsschool.com/blog/2013/05/'> May 2013 &nbsp;(8)</option>
+<option value='https://www.devopsschool.com/blog/2013/04/'> April 2013 &nbsp;(2)</option>
+<option value='https://www.devopsschool.com/blog/2013/02/'> February 2013 &nbsp;(1)</option>
+<option value='https://www.devopsschool.com/blog/2012/05/'> May 2012 &nbsp;(13)</option>
+<option value='https://www.devopsschool.com/blog/2012/04/'> April 2012 &nbsp;(3)</option>
+<option value='https://www.devopsschool.com/blog/2012/02/'> February 2012 &nbsp;(2)</option>
+<option value='https://www.devopsschool.com/blog/2012/01/'> January 2012 &nbsp;(1)</option>
+<option value='https://www.devopsschool.com/blog/2011/12/'> December 2011 &nbsp;(5)</option>
+<option value='https://www.devopsschool.com/blog/2011/11/'> November 2011 &nbsp;(1)</option>
+<option value='https://www.devopsschool.com/blog/2011/08/'> August 2011 &nbsp;(1)</option>
+<option value='https://www.devopsschool.com/blog/2011/03/'> March 2011 &nbsp;(1)</option>
+<option value='https://www.devopsschool.com/blog/2011/02/'> February 2011 &nbsp;(3)</option>
+<option value='https://www.devopsschool.com/blog/2011/01/'> January 2011 &nbsp;(4)</option>
+<option value='https://www.devopsschool.com/blog/2010/12/'> December 2010 &nbsp;(2)</option>
+<option value='https://www.devopsschool.com/blog/2010/11/'> November 2010 &nbsp;(4)</option>
+<option value='https://www.devopsschool.com/blog/2010/09/'> September 2010 &nbsp;(4)</option>
+<option value='https://www.devopsschool.com/blog/2010/08/'> August 2010 &nbsp;(1)</option>
+<option value='https://www.devopsschool.com/blog/2010/07/'> July 2010 &nbsp;(14)</option>
+<option value='https://www.devopsschool.com/blog/2010/06/'> June 2010 &nbsp;(9)</option>
+<option value='https://www.devopsschool.com/blog/2010/05/'> May 2010 &nbsp;(7)</option>
+<option value='https://www.devopsschool.com/blog/2010/04/'> April 2010 &nbsp;(20)</option>
+<option value='https://www.devopsschool.com/blog/2010/03/'> March 2010 &nbsp;(44)</option>
+<option value='https://www.devopsschool.com/blog/2010/02/'> February 2010 &nbsp;(10)</option>
+<option value='https://www.devopsschool.com/blog/2010/01/'> January 2010 &nbsp;(1)</option>
+<option value='https://www.devopsschool.com/blog/2009/10/'> October 2009 &nbsp;(9)</option>
+<option value='https://www.devopsschool.com/blog/2009/06/'> June 2009 &nbsp;(17)</option>
+<option value='https://www.devopsschool.com/blog/2009/04/'> April 2009 &nbsp;(2)</option>
+<option value='https://www.devopsschool.com/blog/2009/03/'> March 2009 &nbsp;(2)</option>
+<option value='https://www.devopsschool.com/blog/2009/02/'> February 2009 &nbsp;(3)</option>
+<option value='https://www.devopsschool.com/blog/2009/01/'> January 2009 &nbsp;(22)</option>
+<option value='https://www.devopsschool.com/blog/2008/12/'> December 2008 &nbsp;(7)</option>
+<option value='https://www.devopsschool.com/blog/2008/11/'> November 2008 &nbsp;(8)</option>
+<option value='https://www.devopsschool.com/blog/2004/11/'> November 2004 &nbsp;(1)</option>
+</select>
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+var dropdown = document.getElementById( "archives-dropdown-2" );
+function onSelectChange() {
+if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
+document.location.href = this.options[ this.selectedIndex ].value;
+}
+}
+dropdown.onchange = onSelectChange;
+})();
+/* ]]> */
+</script>
+</div><div id="categories-2" class="widget widget_categories"><h2 class="widget-title">Categories</h2><form action="https://www.devopsschool.com/blog" method="get"><label class="screen-reader-text" for="cat">Categories</label><select  name='cat' id='cat' class='postform'>
+<option value='-1'>Select Category</option>
+<option class="level-0" value="5883">Adobe Photoshop&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="1862">Amazon Web Services&nbsp;&nbsp;(28)</option>
+<option class="level-0" value="530">ANDROID&nbsp;&nbsp;(13)</option>
+<option class="level-0" value="5487">Angular JS&nbsp;&nbsp;(3)</option>
+<option class="level-0" value="5038">Ansible&nbsp;&nbsp;(57)</option>
+<option class="level-0" value="28">AnthillPro&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="12">Apache Ant&nbsp;&nbsp;(48)</option>
+<option class="level-0" value="35">Apache Continuum&nbsp;&nbsp;(3)</option>
+<option class="level-0" value="67">App / Web Servers&nbsp;&nbsp;(17)</option>
+<option class="level-0" value="573">Application Server&nbsp;&nbsp;(20)</option>
+<option class="level-0" value="4879">Artifactory&nbsp;&nbsp;(5)</option>
+<option class="level-0" value="6511">Artificial Intelligence&nbsp;&nbsp;(10)</option>
+<option class="level-0" value="5633">AWS&nbsp;&nbsp;(110)</option>
+<option class="level-0" value="7853">Azure&nbsp;&nbsp;(7)</option>
+<option class="level-0" value="30">Bamboo&nbsp;&nbsp;(11)</option>
+<option class="level-0" value="7854">Bangalore, India&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="18">Batch Scripting&nbsp;&nbsp;(2)</option>
+<option class="level-0" value="6514">Big Data&nbsp;&nbsp;(15)</option>
+<option class="level-0" value="5687">Bootstrap&nbsp;&nbsp;(4)</option>
+<option class="level-0" value="70">Build Management&nbsp;&nbsp;(13)</option>
+<option class="level-0" value="416">Build Management &amp; Tools&nbsp;&nbsp;(5)</option>
+<option class="level-0" value="74">Build Tools&nbsp;&nbsp;(16)</option>
+<option class="level-0" value="444">BuildForge&nbsp;&nbsp;(10)</option>
+<option class="level-0" value="32">BuildForge&nbsp;&nbsp;(4)</option>
+<option class="level-0" value="88">Chef&nbsp;&nbsp;(62)</option>
+<option class="level-0" value="25">ClearCase&nbsp;&nbsp;(5)</option>
+<option class="level-0" value="414">ClearCase&nbsp;&nbsp;(2)</option>
+<option class="level-0" value="547">CLOUD COMPUTING AND OPERATING SOFTWARE&nbsp;&nbsp;(48)</option>
+<option class="level-0" value="62">Code Analysis&nbsp;&nbsp;(17)</option>
+<option class="level-0" value="5052">Code Coverage&nbsp;&nbsp;(6)</option>
+<option class="level-0" value="65">Concept &amp; Definition&nbsp;&nbsp;(34)</option>
+<option class="level-0" value="575">Configuration Management Tools&nbsp;&nbsp;(16)</option>
+<option class="level-0" value="546">CONTAINERS&nbsp;&nbsp;(10)</option>
+<option class="level-0" value="79">Continuous Delivery&nbsp;&nbsp;(2)</option>
+<option class="level-0" value="78">Continuous Inspection&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="77">Continuous Integration&nbsp;&nbsp;(9)</option>
+<option class="level-0" value="5605">CSS&nbsp;&nbsp;(10)</option>
+<option class="level-0" value="20">CVS&nbsp;&nbsp;(11)</option>
+<option class="level-0" value="6348">dart&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="6516">Data Analytics&nbsp;&nbsp;(15)</option>
+<option class="level-0" value="6513">Data Science&nbsp;&nbsp;(14)</option>
+<option class="level-0" value="6515">Deep Learning&nbsp;&nbsp;(16)</option>
+<option class="level-0" value="8216">DevOps&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="705">DevOps Community&nbsp;&nbsp;(30)</option>
+<option class="level-0" value="5529">DevOps Engineer Resume&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="82">DevOps Practice and Process&nbsp;&nbsp;(53)</option>
+<option class="level-0" value="572">DevOps Tooling&nbsp;&nbsp;(24)</option>
+<option class="level-0" value="6097">DevOpsSchool&nbsp;&nbsp;(17)</option>
+<option class="level-0" value="6083">DevSecOps&nbsp;&nbsp;(14)</option>
+<option class="level-0" value="5850">Digital Marketing&nbsp;&nbsp;(36)</option>
+<option class="level-0" value="4862">Docker&nbsp;&nbsp;(63)</option>
+<option class="level-0" value="5392">Docker&nbsp;&nbsp;(21)</option>
+<option class="level-0" value="5960">DSOCP&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="5055">Elastic Stack&nbsp;&nbsp;(20)</option>
+<option class="level-0" value="5936">Elasticsearch&nbsp;&nbsp;(8)</option>
+<option class="level-0" value="6448">Facebook&nbsp;&nbsp;(2)</option>
+<option class="level-0" value="5912">Facebook Groups&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="5917">Fecebook Group&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="6331">Flutter&nbsp;&nbsp;(43)</option>
+<option class="level-0" value="6422">Framework&nbsp;&nbsp;(9)</option>
+<option class="level-0" value="49">General&nbsp;&nbsp;(410)</option>
+<option class="level-0" value="4994">Gerrit&nbsp;&nbsp;(13)</option>
+<option class="level-0" value="38">Git&nbsp;&nbsp;(43)</option>
+<option class="level-0" value="400">git&nbsp;&nbsp;(17)</option>
+<option class="level-0" value="5204">Github&nbsp;&nbsp;(12)</option>
+<option class="level-0" value="5112">Gitlab&nbsp;&nbsp;(12)</option>
+<option class="level-0" value="5460">Gradle&nbsp;&nbsp;(7)</option>
+<option class="level-0" value="5012">Grafana&nbsp;&nbsp;(5)</option>
+<option class="level-0" value="81">Hacking &amp; Security&nbsp;&nbsp;(2)</option>
+<option class="level-0" value="4864">HTML&nbsp;&nbsp;(10)</option>
+<option class="level-0" value="7855">Hyderabad, India&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="63">IDEs and Editor&nbsp;&nbsp;(8)</option>
+<option class="level-0" value="58">Incident and Bug Tracking Systems&nbsp;&nbsp;(2)</option>
+<option class="level-0" value="6518">Internet of things&nbsp;&nbsp;(20)</option>
+<option class="level-0" value="52">Interview Questions &amp; Answers&nbsp;&nbsp;(120)</option>
+<option class="level-0" value="574">Issue-Bug Tracking System&nbsp;&nbsp;(4)</option>
+<option class="level-0" value="84">IT Infrastructure Monitoring Tools&nbsp;&nbsp;(11)</option>
+<option class="level-0" value="5886">Java&nbsp;&nbsp;(11)</option>
+<option class="level-0" value="5691">Javascript&nbsp;&nbsp;(22)</option>
+<option class="level-0" value="42">Jenkins&nbsp;&nbsp;(83)</option>
+<option class="level-0" value="5106">Jira&nbsp;&nbsp;(10)</option>
+<option class="level-0" value="5051">Joomla&nbsp;&nbsp;(2)</option>
+<option class="level-0" value="6305">jQuery&nbsp;&nbsp;(2)</option>
+<option class="level-0" value="6306">jQuery&nbsp;&nbsp;(10)</option>
+<option class="level-0" value="4859">Kubernetes&nbsp;&nbsp;(81)</option>
+<option class="level-0" value="5201">Laravel&nbsp;&nbsp;(163)</option>
+<option class="level-0" value="5913">Linkedin Groups&nbsp;&nbsp;(2)</option>
+<option class="level-0" value="4957">Linux&nbsp;&nbsp;(87)</option>
+<option class="level-0" value="5152">Log Monitoring Tools&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="4898">Logstash&nbsp;&nbsp;(4)</option>
+<option class="level-0" value="6512">Machine Learning&nbsp;&nbsp;(16)</option>
+<option class="level-0" value="4207">magento&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="71">makefile&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="29">Maven&nbsp;&nbsp;(38)</option>
+<option class="level-0" value="5124">Microservices&nbsp;&nbsp;(22)</option>
+<option class="level-0" value="527">Microsoft Windows&nbsp;&nbsp;(12)</option>
+<option class="level-0" value="5971">Minikube&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="6020">monitoring&nbsp;&nbsp;(2)</option>
+<option class="level-0" value="51">Msbuild&nbsp;&nbsp;(7)</option>
+<option class="level-0" value="6116">Multimedia&nbsp;&nbsp;(26)</option>
+<option class="level-0" value="6423">MVC&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="50">Nant&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="7850">Netherland, Amsterdam&nbsp;&nbsp;(6)</option>
+<option class="level-0" value="539">Network&nbsp;&nbsp;(38)</option>
+<option class="level-0" value="541">Networking&nbsp;&nbsp;(18)</option>
+<option class="level-0" value="48">News &amp; Events&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="6101">Nexus&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="4919">ngrok&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="5830">Node JS&nbsp;&nbsp;(5)</option>
+<option class="level-0" value="6493">npm&nbsp;&nbsp;(3)</option>
+<option class="level-0" value="5208">Octopus Deploy&nbsp;&nbsp;(11)</option>
+<option class="level-0" value="5153">OpenShift&nbsp;&nbsp;(3)</option>
+<option class="level-0" value="4914">OpenStake&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="68">Operating Systems&nbsp;&nbsp;(10)</option>
+<option class="level-0" value="451">Other build Tools&nbsp;&nbsp;(3)</option>
+<option class="level-0" value="362">Others Version Control Systems&nbsp;&nbsp;(9)</option>
+<option class="level-0" value="86">Package Management&nbsp;&nbsp;(3)</option>
+<option class="level-0" value="5238">Packer&nbsp;&nbsp;(3)</option>
+<option class="level-0" value="370">Perforce&nbsp;&nbsp;(99)</option>
+<option class="level-0" value="14">Perl&nbsp;&nbsp;(9)</option>
+<option class="level-0" value="489">Perl Script&nbsp;&nbsp;(51)</option>
+<option class="level-0" value="5150">PHP&nbsp;&nbsp;(185)</option>
+<option class="level-0" value="6142">PHP Syntax&nbsp;&nbsp;(15)</option>
+<option class="level-0" value="6143">Php Valiable&nbsp;&nbsp;(14)</option>
+<option class="level-0" value="76">Practice of Software Configuration Management&nbsp;&nbsp;(24)</option>
+<option class="level-0" value="453">Programming Scripting Languages&nbsp;&nbsp;(41)</option>
+<option class="level-0" value="5013">Prometheus&nbsp;&nbsp;(11)</option>
+<option class="level-0" value="89">Puppet&nbsp;&nbsp;(9)</option>
+<option class="level-0" value="499">Python&nbsp;&nbsp;(38)</option>
+<option class="level-0" value="505">Quality Management&nbsp;&nbsp;(2)</option>
+<option class="level-0" value="11">Release Concept&nbsp;&nbsp;(2)</option>
+<option class="level-0" value="17">Release, News &amp; Updates&nbsp;&nbsp;(16)</option>
+<option class="level-0" value="576">Repository Manager Tools&nbsp;&nbsp;(4)</option>
+<option class="level-0" value="83">Repository Manager Tools&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="6352">REST API&nbsp;&nbsp;(18)</option>
+<option class="level-0" value="5570">Reveal JS&nbsp;&nbsp;(3)</option>
+<option class="level-0" value="6517">Robotics&nbsp;&nbsp;(19)</option>
+<option class="level-0" value="4929">Ruby&nbsp;&nbsp;(4)</option>
+<option class="level-0" value="504">ruby programming&nbsp;&nbsp;(10)</option>
+<option class="level-0" value="5857">Sales&nbsp;&nbsp;(2)</option>
+<option class="level-0" value="57">Scripting&nbsp;&nbsp;(23)</option>
+<option class="level-0" value="6084">Security Practices&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="59">Security Tools&nbsp;&nbsp;(10)</option>
+<option class="level-0" value="5263">SEO&nbsp;&nbsp;(139)</option>
+<option class="level-0" value="9">sh404SEF custom content&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="454">Shell Script&nbsp;&nbsp;(117)</option>
+<option class="level-0" value="85">Shortcuts&nbsp;&nbsp;(3)</option>
+<option class="level-0" value="6082">Site Reliability Engineering&nbsp;&nbsp;(12)</option>
+<option class="level-0" value="6435">SiteMap&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="5910">Social Media&nbsp;&nbsp;(31)</option>
+<option class="level-0" value="6411">Software Engineering&nbsp;&nbsp;(2)</option>
+<option class="level-0" value="158">SonarQube&nbsp;&nbsp;(12)</option>
+<option class="level-0" value="157">SonaType Nexus&nbsp;&nbsp;(6)</option>
+<option class="level-0" value="515">source code analysis tools&nbsp;&nbsp;(25)</option>
+<option class="level-0" value="558">Source Code Management&nbsp;&nbsp;(6)</option>
+<option class="level-0" value="5207">Splunk&nbsp;&nbsp;(14)</option>
+<option class="level-0" value="1">SQL&nbsp;&nbsp;(100)</option>
+<option class="level-0" value="7799">SRE&nbsp;&nbsp;(5)</option>
+<option class="level-0" value="393">SVN(Subversion)&nbsp;&nbsp;(20)</option>
+<option class="level-0" value="23">SVN(Subversion)&nbsp;&nbsp;(15)</option>
+<option class="level-0" value="41">Team Foundation Server&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="449">Teamcity&nbsp;&nbsp;(12)</option>
+<option class="level-0" value="6081">Tech Jobs&nbsp;&nbsp;(3)</option>
+<option class="level-0" value="7338">Teradata&nbsp;&nbsp;(18)</option>
+<option class="level-0" value="7340">Teradata Database&nbsp;&nbsp;(10)</option>
+<option class="level-0" value="5129">Terraform&nbsp;&nbsp;(57)</option>
+<option class="level-0" value="508">test coverage tools&nbsp;&nbsp;(14)</option>
+<option class="level-0" value="61">Test Coverage Tools&nbsp;&nbsp;(3)</option>
+<option class="level-0" value="60">Testing Tools&nbsp;&nbsp;(21)</option>
+<option class="level-0" value="26">TFS&nbsp;&nbsp;(2)</option>
+<option class="level-0" value="5149">Tips and Tricks&nbsp;&nbsp;(57)</option>
+<option class="level-0" value="5908">Tomcat&nbsp;&nbsp;(2)</option>
+<option class="level-0" value="10">Tools Comparison&nbsp;&nbsp;(21)</option>
+<option class="level-0" value="5972">TRAINER&nbsp;&nbsp;(8)</option>
+<option class="level-0" value="90">Trainers&nbsp;&nbsp;(10)</option>
+<option class="level-0" value="8">Training&nbsp;&nbsp;(70)</option>
+<option class="level-0" value="4883">uBuild&nbsp;&nbsp;(5)</option>
+<option class="level-0" value="4885">uDeploy&nbsp;&nbsp;(18)</option>
+<option class="level-0" value="2">Uncategorised&nbsp;&nbsp;(2,529)</option>
+<option class="level-0" value="5696">UrbanCode Deploy&nbsp;&nbsp;(3)</option>
+<option class="level-0" value="4884">URelease&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="5050">Vagrant&nbsp;&nbsp;(1)</option>
+<option class="level-0" value="361">Version Control Systems&nbsp;&nbsp;(9)</option>
+<option class="level-0" value="64">Virtualization&nbsp;&nbsp;(8)</option>
+<option class="level-0" value="5053">Vmware&nbsp;&nbsp;(2)</option>
+<option class="level-0" value="21">VSS&nbsp;&nbsp;(4)</option>
+<option class="level-0" value="156">Websites&nbsp;&nbsp;(23)</option>
+<option class="level-0" value="55">Windows&nbsp;&nbsp;(17)</option>
+<option class="level-0" value="4897">Zabbix&nbsp;&nbsp;(3)</option>
+</select>
+</form><script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+var dropdown = document.getElementById( "cat" );
+function onCatChange() {
+if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+dropdown.parentNode.submit();
+}
+}
+dropdown.onchange = onCatChange;
+})();
+/* ]]> */
+</script>
+</div><div id="block-2" class="widget widget_block"><ul>
+<li><a href="https://www.gyan.school/">Free Video Tutorials</a></li>
+<li><a href="https://www.devopsschool.com/">DevOps School</a></li>
+<li><a href="https://www.BestDevOps.com/">Best DevOps</a></li>
+<li><a href="https://www.scmgalaxy.com/">scmGalaxy</a></li>
+<li><a href="https://www.aiuniverse.xyz/">Artificial Intelligence</a></li>
+<li><a href="https://www.thedataops.org/">DataOps</a></li>
+<li><a href="https://www.theaiops.com/">AIOps</a></li>
+<li><a href="https://www.gurukulgalaxy.com/">GuruKul Galaxy</a></li>
+<li><a href="http://www.devopsconsulting.in">DevOps Consulting</a></li>
+<li><a href="http://www.devopsfreelancer.com/">DevOps Freelancers</a></li>
+<li><a href="http://www.devopstrainer.in/">DevOps Trainer</a></li>
+<li><a href="http://www.freeebooks.xyz/">Free Ebooks</a></li>
+<li><a href="https://debug.school/">School for Debugger</a></li>
+<li><a href="https://www.holidaylandmark.com/">Holiday Landmark</a></li>
+<li><a href="http://www.surgeryplanet.com/">Surgery Planet</a></li>
+<li><a href="https://www.myhospitalnow.com/">My Hospital Now</a></li>
+<li><a href="https://www.mymedicplus.com/">My Medic Plus</a></li>
+<li><a href="https://professnow.com/">ProfessNow</a></li>
+<li><a href="https://www.cotocus.com/">Cotocus</a></li>
+<li><a href="https://www.stocksmantra.in/">Stocks Mantra</a></li>
+<li><a href="https://www.ireviewed.in/">I Reviewed</a></li>
+</ul></div><div id="block-9" class="widget widget_block widget_text">
+<p><strong>Number of posts:</strong> <span class="sbs-count-posts">6,131</span><br><strong>Number of users:</strong> <span class="sbs-count-users">36</span></p>
+</div></aside><!-- #secondary -->
+
+</div><!-- #content .site-content -->
+<footer id="colophon" class="site-footer">
+<div class="footer-columns clear">
+<div class="container clear">
+<div class="footer-column footer-column-1">
+<div id="nav_menu-5" class="widget footer-widget widget_nav_menu"><h3 class="widget-title">Community</h3></div><div id="nav_menu-6" class="widget footer-widget widget_nav_menu"><h3 class="widget-title">Useful Reference</h3><div class="menu-footer-2-container"><ul id="menu-footer-2" class="menu"><li id="menu-item-6348" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6348"><a target="_blank" rel="noopener" href="http://www.devopsschool.com/community/index.html">DevOps Community</a></li>
+<li id="menu-item-6349" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6349"><a target="_blank" rel="noopener" href="http://Sitemaps">https://www.devopsschool.com/blog/sitemap/</a></li>
+<li id="menu-item-6350" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6350"><a target="_blank" rel="noopener" href="http://www.devopstrainer.in/">DevOps Trainer</a></li>
+<li id="menu-item-6351" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6351"><a target="_blank" rel="noopener" href="http://www.devopsconsulting.in/">DevOps Consulting</a></li>
+<li id="menu-item-6352" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6352"><a target="_blank" rel="noopener" href="https://www.devopsschool.com/news/index.html">DevOps News &#038; Events</a></li>
+</ul></div></div>					</div>
+<div class="footer-column footer-column-2">
+</div>
+<div class="footer-column footer-column-3">
+</div>
+<div class="footer-column footer-column-4">
+<div id="nav_menu-8" class="widget footer-widget widget_nav_menu"><h3 class="widget-title">Links</h3><div class="menu-footer-3-container"><ul id="menu-footer-3" class="menu"><li id="menu-item-6360" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6360"><a target="_blank" rel="noopener" href="http://www.devopsschool.com/about/">About Us</a></li>
+<li id="menu-item-6361" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6361"><a target="_blank" rel="noopener" href="http://www.devopsschool.com/support/">Support</a></li>
+<li id="menu-item-6362" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6362"><a target="_blank" rel="noopener" href="http://www.devopsschool.com/calender/">Calender</a></li>
+<li id="menu-item-6363" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6363"><a href="http://www.devopsschool.com/comparison/">Comparison</a></li>
+<li id="menu-item-6364" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6364"><a href="http://www.devopsschool.com/courses/agenda/index.html">Agenda</a></li>
+</ul></div></div>					</div>												
+</div><!-- .container -->
+</div><!-- .footer-columns -->
+<div class="clear"></div>
+<div id="site-bottom" class="clear">
+<div class="container">
+<div class="site-info">
+&copy; 2023 <a href="https://www.devopsschool.com/blog">DevOpsSchool.com</a> - Theme by <a href="https://www.DevOpsSchool.com/" target="_blank">DevOpsschool</a>
+</div><!-- .site-info -->
+</div><!-- .container -->
+</div>
+<!-- #site-bottom -->
+</footer><!-- #colophon -->
+</div><!-- #page -->
+<div class="simple-banner simple-banner-text" style="display:none !important"></div><span id='wpdUserContentInfoAnchor' style='display:none;' rel='#wpdUserContentInfo' data-wpd-lity>wpDiscuz</span><div id='wpdUserContentInfo' style='overflow:auto;background:#FDFDF6;padding:20px;width:600px;max-width:100%;border-radius:6px;' class='lity-hide'></div><div id='wpd-bubble-wrapper'><span id='wpd-bubble-all-comments-count' style='display:none;' title='0'>0</span><div id='wpd-bubble-count'><svg xmlns='https://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><path class='wpd-bubble-count-first' d='M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z'/><path class='wpd-bubble-count-second' d='M0 0h24v24H0z' /></svg><span class='wpd-new-comments-count'>0</span></div><div id='wpd-bubble'><svg xmlns='https://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><path class='wpd-bubble-plus-first' d='M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z'/><path class='wpd-bubble-plus-second' d='M0 0h24v24H0z' /></svg><div id='wpd-bubble-add-message'>Would love your thoughts, please comment.<span id='wpd-bubble-add-message-close'><a href='#'>x</a></span></div></div><div id='wpd-bubble-notification'><svg xmlns='https://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><path class='wpd-bubble-notification-first' d='M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z'/><path class='wpd-bubble-notification-second' d='M0 0h24v24H0z' /></svg><div id='wpd-bubble-notification-message'><div id='wpd-bubble-author'><div><span id='wpd-bubble-author-avatar'></span><span id='wpd-bubble-author-name'></span><span id='wpd-bubble-comment-date'>(<span class='wpd-bubble-spans'></span>)</span></div><span id='wpd-bubble-comment-close'><a href='#'>x</a></span></div><div id='wpd-bubble-comment'><span id='wpd-bubble-comment-text'></span><span id='wpd-bubble-comment-reply-link'>| <a href='#'>Reply</a></span></div></div></div></div><div id='wpd-editor-source-code-wrapper-bg'></div><div id='wpd-editor-source-code-wrapper'><textarea id='wpd-editor-source-code'></textarea><button id='wpd-insert-source-code'>Insert</button><input type='hidden' id='wpd-editor-uid' /></div>
+<div class="joinchat joinchat--right joinchat--btn" data-settings='{"telephone":"917004215841","mobile_only":false,"button_delay":3,"whatsapp_web":false,"qr":false,"message_views":2,"message_delay":10,"message_badge":false,"message_send":"","message_hash":""}'>
+<div class="joinchat__button">
+<div class="joinchat__button__open"></div>
+</div>
+</div>
+<script type="text/javascript" id="wpdiscuz-combo-js-js-extra">
+/* <![CDATA[ */
+var wpdiscuzAjaxObj = {"wc_hide_replies_text":"Hide Replies","wc_show_replies_text":"View Replies","wc_msg_required_fields":"Please fill out required fields","wc_invalid_field":"Some of field value is invalid","wc_error_empty_text":"please fill out this field to comment","wc_error_url_text":"url is invalid","wc_error_email_text":"email address is invalid","wc_invalid_captcha":"Invalid Captcha Code","wc_login_to_vote":"You Must Be Logged In To Vote","wc_deny_voting_from_same_ip":"You are not allowed to vote for this comment","wc_self_vote":"You cannot vote for your comment","wc_vote_only_one_time":"You've already voted for this comment","wc_voting_error":"Voting Error","wc_comment_edit_not_possible":"Sorry, this comment is no longer possible to edit","wc_comment_not_updated":"Sorry, the comment was not updated","wc_comment_not_edited":"You've not made any changes","wc_msg_input_min_length":"Input is too short","wc_msg_input_max_length":"Input is too long","wc_spoiler_title":"Spoiler Title","wc_cannot_rate_again":"You cannot rate again","wc_not_allowed_to_rate":"You're not allowed to rate here","wc_follow_user":"Follow this user","wc_unfollow_user":"Unfollow this user","wc_follow_success":"You started following this comment author","wc_follow_canceled":"You stopped following this comment author.","wc_follow_email_confirm":"Please check your email and confirm the user following request.","wc_follow_email_confirm_fail":"Sorry, we couldn't send confirmation email.","wc_follow_login_to_follow":"Please login to follow users.","wc_follow_impossible":"We are sorry, but you can't follow this user.","wc_follow_not_added":"Following failed. Please try again later.","is_user_logged_in":"","commentListLoadType":"0","commentListUpdateType":"0","commentListUpdateTimer":"60","liveUpdateGuests":"0","wordpressThreadCommentsDepth":"5","wordpressIsPaginate":"","commentTextMaxLength":"0","replyTextMaxLength":"0","commentTextMinLength":"1","replyTextMinLength":"1","storeCommenterData":"100000","socialLoginAgreementCheckbox":"1","enableFbLogin":"0","fbUseOAuth2":"0","enableFbShare":"1","facebookAppID":"","facebookUseOAuth2":"0","enableGoogleLogin":"0","googleClientID":"","googleClientSecret":"","cookiehash":"2d940af61c5f543f3d2a8b23b3e7582f","isLoadOnlyParentComments":"0","scrollToComment":"1","commentFormView":"collapsed","enableDropAnimation":"1","isNativeAjaxEnabled":"1","enableBubble":"1","bubbleLiveUpdate":"0","bubbleHintTimeout":"45","bubbleHintHideTimeout":"10","cookieHideBubbleHint":"wpdiscuz_hide_bubble_hint","bubbleHintShowOnce":"1","bubbleHintCookieExpires":"7","bubbleShowNewCommentMessage":"1","bubbleLocation":"content_left","firstLoadWithAjax":"0","wc_copied_to_clipboard":"Copied to clipboard!","inlineFeedbackAttractionType":"blink","loadRichEditor":"1","wpDiscuzReCaptchaSK":"6LdHfrEeAAAAAGyTI1hp_LaP0tG4UitjA2DRYBTe","wpDiscuzReCaptchaTheme":"light","wpDiscuzReCaptchaVersion":"2.0","wc_captcha_show_for_guest":"1","wc_captcha_show_for_members":"0","wpDiscuzIsShowOnSubscribeForm":"1","wmuEnabled":"1","wmuInput":"wmu_files","wmuMaxFileCount":"1","wmuMaxFileSize":"1048576","wmuPostMaxSize":"41943040","wmuIsLightbox":"1","wmuMimeTypes":{"jpg":"image\/jpeg","jpeg":"image\/jpeg","jpe":"image\/jpeg","gif":"image\/gif","png":"image\/png","bmp":"image\/bmp","tif":"image\/tiff"},"wmuPhraseConfirmDelete":"Are you sure you want to delete this attachment?","wmuPhraseNotAllowedFile":"Not allowed file type","wmuPhraseMaxFileCount":"Maximum number of uploaded files is 1","wmuPhraseMaxFileSize":"Maximum upload file size is 1MB","wmuPhrasePostMaxSize":"Maximum post size is 40MB","wmuPhraseDoingUpload":"Uploading in progress! Please wait.","msgEmptyFile":"File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini.","msgPostIdNotExists":"Post ID not exists","msgUploadingNotAllowed":"Sorry, uploading not allowed for this post","msgPermissionDenied":"You do not have sufficient permissions to perform this action","wmuKeyImages":"images","wmuSingleImageWidth":"auto","wmuSingleImageHeight":"200","version":"7.6.13","wc_post_id":"27714","isCookiesEnabled":"1","loadLastCommentId":"0","dataFilterCallbacks":[],"phraseFilters":[],"scrollSize":"32","is_email_field_required":"1","url":"https:\/\/www.devopsschool.com\/blog\/wp-admin\/admin-ajax.php","customAjaxUrl":"https:\/\/www.devopsschool.com\/blog\/wp-content\/plugins\/wpdiscuz\/utils\/ajax\/wpdiscuz-ajax.php","bubbleUpdateUrl":"https:\/\/www.devopsschool.com\/blog\/wp-json\/wpdiscuz\/v1\/update","restNonce":"cafdb71c95"};
+var wpdiscuzUCObj = {"msgConfirmDeleteComment":"Are you sure you want to delete this comment?","msgConfirmCancelSubscription":"Are you sure you want to cancel this subscription?","msgConfirmCancelFollow":"Are you sure you want to cancel this follow?","additionalTab":"0"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="wpdiscuz-combo-js-js-before">
+/* <![CDATA[ */
+var wpdiscuzEditorOptions = {
+modules: {
+toolbar: "",
+counter: {
+uniqueID: "",
+commentmaxcount : 0,
+replymaxcount : 0,
+commentmincount : 1,
+replymincount : 1,
+},
+},
+wc_be_the_first_text: "Be the First to Comment!",
+wc_comment_join_text: "Join the discussion",
+theme: 'snow',
+debug: 'error'
+};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.devopsschool.com/blog/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz-combo.min.js?ver=7.6.13" id="wpdiscuz-combo-js-js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&amp;render=explicit&amp;ver=1.0.0" id="wpdiscuz-google-recaptcha-js"></script>
+<script type="text/javascript" id="ez-toc-scroll-scriptjs-js-extra">
+/* <![CDATA[ */
+var eztoc_smooth_local = {"scroll_offset":"30"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.devopsschool.com/blog/wp-content/plugins/easy-table-of-contents/assets/js/smooth_scroll.min.js?ver=2.0.59" id="ez-toc-scroll-scriptjs-js"></script>
+<script type="text/javascript" src="https://www.devopsschool.com/blog/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js?ver=2.2.1" id="ez-toc-js-cookie-js"></script>
+<script type="text/javascript" src="https://www.devopsschool.com/blog/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js?ver=1.9.2" id="ez-toc-jquery-sticky-kit-js"></script>
+<script type="text/javascript" id="ez-toc-js-js-extra">
+/* <![CDATA[ */
+var ezTOC = {"smooth_scroll":"1","visibility_hide_by_default":"","scroll_offset":"30","fallbackIcon":"<span class=\"\"><span class=\"eztoc-hide\" style=\"display:none;\">Toggle<\/span><span class=\"ez-toc-icon-toggle-span\"><svg style=\"fill: #999;color:#999\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"list-377408\" width=\"20px\" height=\"20px\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z\" fill=\"currentColor\"><\/path><\/svg><svg style=\"fill: #999;color:#999\" class=\"arrow-unsorted-368013\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"10px\" height=\"10px\" viewBox=\"0 0 24 24\" version=\"1.2\" baseProfile=\"tiny\"><path d=\"M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z\"\/><\/svg><\/span><\/span>"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.devopsschool.com/blog/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js?ver=2.0.59-1701343036" id="ez-toc-js-js"></script>
+<script type="text/javascript" src="https://www.devopsschool.com/blog/wp-content/themes/revenue/assets/js/superfish.js?ver=6.4.1" id="superfish-js"></script>
+<script type="text/javascript" src="https://www.devopsschool.com/blog/wp-content/themes/revenue/assets/js/jquery.slicknav.min.js?ver=6.4.1" id="slicknav-js"></script>
+<script type="text/javascript" src="https://www.devopsschool.com/blog/wp-content/themes/revenue/assets/js/modernizr.min.js?ver=6.4.1" id="modernizr-js"></script>
+<script type="text/javascript" src="https://www.devopsschool.com/blog/wp-content/themes/revenue/assets/js/html5.js?ver=6.4.1" id="html5-js"></script>
+<script type="text/javascript" src="https://www.devopsschool.com/blog/wp-content/themes/revenue/assets/js/jquery.bxslider.min.js?ver=6.4.1" id="bxslider-js"></script>
+<script type="text/javascript" src="https://www.devopsschool.com/blog/wp-content/themes/revenue/assets/js/jquery.custom.js?ver=20171010" id="custom-js"></script>
+<script type="text/javascript" src="https://www.devopsschool.com/blog/wp-content/plugins/creame-whatsapp-me/public/js/joinchat.min.js?ver=5.0.15" id="joinchat-js"></script>
+<script type="text/javascript" src="https://www.devopsschool.com/blog/wp-content/plugins/youtube-embed-plus/scripts/fitvids.min.js?ver=14.2" id="__ytprefsfitvids__-js"></script>
+</body>
+</html><!-- WP Fastest Cache file was created in 0.46531414985657 seconds, on 06-12-23 8:41:41 --><!-- via php -->
