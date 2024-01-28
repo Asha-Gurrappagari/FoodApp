@@ -57,7 +57,7 @@ import { CheckoutComponent } from './checkout/checkout.component';
     AppRoutingModule,
     FormsModule,
     CommonModule,
-    RouterModule
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
