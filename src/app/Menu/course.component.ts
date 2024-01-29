@@ -15,9 +15,9 @@ menu:any=[];
 
   course = [
     {'id':1, 'name':'Pickles', 'description': 'Authentic Andhra pickles made from guntur chilies.','image':'assets/img/pickles.jpg'},
-    {'id':2, 'name':'Powders', 'description': 'Freshly Grounded powders with well balanced spices.','image':'assets/img/powder.jpg'},
-    {'id':3, 'name':'Dals', 'description': 'Oragnically farmed Dals with rich protien and nutrients.','image':'assets/img/dals.jpg'},
-    {'id':4, 'name':'Spices', 'description': 'Home-made spices with rich taste and color.','image':'assets/img/spices.jpg'}
+    {'id':2, 'name':'Powders', 'description': 'Freshly Grounded powders with well balanced spices.','image':'/assets/img/powder.jpg'},
+    {'id':3, 'name':'Dals', 'description': 'Oragnically farmed Dals with rich protien and nutrients.','image':'/assets/img/dals.jpg'},
+    {'id':4, 'name':'Spices', 'description': 'Home-made spices with rich taste and color.','image':'/assets/img/spices.jpg'}
   ]
 }
 
